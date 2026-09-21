@@ -13,7 +13,7 @@ const ext = site.externalLinks || {};
     {services.length > 0 && <div><h4>Services</h4><ul>{services.map((s) => <li><a href={href(s.slug)}>{s.navLabel || s.breadcrumbLabel || s.h1}</a></li>)}</ul></div>}
     <div><h4>Company</h4><ul>
       {company.map((s) => <li><a href={href(s)}>{label(s)}</a></li>)}
-      {(site.footerLocations || []).map((l) => <li><a href={l.to}>{l.anchor}</a></li>)}
+      {hasPage('services') && <li><a href="/services/">Gutter Services</a></li>}
     </ul></div>
     <div class="footer-contact"><h4>Get in touch</h4>
       {site.logo && <a class="footer-logo" href="/" aria-label={`${site.businessName} home`}><Photo file={site.logo} alt="" widths={[360]} sizes="200px" /></a>}
