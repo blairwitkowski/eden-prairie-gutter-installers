@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-boulder-pointe-mn
-seoTitle: "Gutter Installation in Boulder Pointe, MN | EP Gutters"
+seoTitle: "Gutter Installation in Boulder Pointe, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation for Boulder Pointe's newer bluff-line homes, sized for sloped lots and walkout basements. Free, in-person estimates."
 h1: "Boulder Pointe Gutter Installation"
 eyebrow: "Boulder Pointe, Eden Prairie"

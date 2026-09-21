@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-pioneer-park-mn
-seoTitle: "Gutter Installation Pioneer Park Area, MN | EP Gutters"
+seoTitle: "Gutter Installation Pioneer Park Area, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation and repair along Eden Prairie's Pioneer Trail corridor, from wooded bluff-line lots to older subdivisions."
 h1: "Pioneer Park Gutter Installation"
 eyebrow: "Pioneer Park area, Eden Prairie"

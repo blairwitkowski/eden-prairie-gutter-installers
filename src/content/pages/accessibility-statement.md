@@ -2,6 +2,7 @@
 pageType: legal
 slug: accessibility-statement
 seoTitle: "Accessibility Statement | Eden Prairie Gutter Installers"
+metaDescription: "Accessibility statement for Eden Prairie Gutter Installers, part of the Big Mike Gutters family of companies."
 h1: "Accessibility Statement"
 breadcrumbLabel: "Accessibility"
 index: false

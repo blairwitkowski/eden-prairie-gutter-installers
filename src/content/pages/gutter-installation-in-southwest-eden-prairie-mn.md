@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-southwest-eden-prairie-mn
-seoTitle: "Gutter Installation SW Eden Prairie, MN | EP Gutters"
+seoTitle: "Gutter Installation SW Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation for Southwest Eden Prairie's newest, largest custom homes along the Minnesota River bluffs. Free estimates."
 h1: "Southwest Eden Prairie Gutter Installation"
 eyebrow: "Southwest Eden Prairie"

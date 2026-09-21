@@ -2,7 +2,7 @@
 pageType: core
 slug: estimate
 seoTitle: "Free Gutter Estimate | Eden Prairie Gutter Installers"
-metaDescription: "Request a free, no-pressure gutter estimate for your Eden Prairie, MN home or business."
+metaDescription: "Request a free, no-pressure gutter estimate for your Eden Prairie, MN home or business. We'll walk the roof and give you a straight number."
 h1: "Get a Free Estimate"
 eyebrow: "No pressure, no obligation"
 breadcrumbLabel: "Free Estimate"

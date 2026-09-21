@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-southeast-eden-prairie-mn
-seoTitle: "Gutter Installation SE Eden Prairie, MN | EP Gutters"
+seoTitle: "Gutter Installation SE Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation and repair for Southeast Eden Prairie's mixed residential and industrial flatland near Flying Cloud Airport."
 h1: "Southeast Eden Prairie Gutter Installation"
 eyebrow: "Southeast Eden Prairie"

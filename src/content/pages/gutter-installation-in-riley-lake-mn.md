@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-riley-lake-mn
-seoTitle: "Gutter Installation Riley Lake Area, MN | EP Gutters"
+seoTitle: "Gutter Installation Riley Lake Area, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation and downspout placement for Riley Lake area walkout homes, based on real work we've done nearby. Free estimates."
 h1: "Riley Lake Gutter Installation"
 eyebrow: "Riley Lake area, Eden Prairie"

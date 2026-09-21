@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-woodland-mn
-seoTitle: "Gutter Installation in Woodland, Eden Prairie | EP Gutters"
+seoTitle: "Gutter Installation in Woodland, Eden Prairie | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation, cleaning, and repair for Eden Prairie's Woodland area homes, most built within the past decade. Free estimates."
 h1: "Woodland Gutter Installation"
 eyebrow: "Woodland, Eden Prairie"

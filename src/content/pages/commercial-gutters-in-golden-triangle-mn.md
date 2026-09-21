@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: commercial-gutters-in-golden-triangle-mn
-seoTitle: "Commercial Gutters in the Golden Triangle, MN | EP Gutters"
+seoTitle: "Commercial Gutters in the Golden Triangle, MN | Eden Prairie Gutter Installers"
 metaDescription: "Commercial drainage for the Golden Triangle business park's flex, office, and industrial buildings across Eden Prairie's largest job center."
 h1: "Golden Triangle Gutter Installation"
 eyebrow: "Golden Triangle, Eden Prairie"

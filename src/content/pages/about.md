@@ -1,7 +1,7 @@
 ---
 pageType: core
 slug: about
-seoTitle: "About Eden Prairie Gutter Installers | Eden Prairie Gutter Installers"
+seoTitle: "About Us | Eden Prairie Gutter Installers"
 metaDescription: "Eden Prairie Gutter Installers is owned and run by Mike Carroll, providing custom gutter fabrication and installation. No subcontractors, ever."
 h1: "About Eden Prairie Gutter Installers"
 eyebrow: "Local Eden Prairie Gutter Experts"

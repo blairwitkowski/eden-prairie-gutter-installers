@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-west-eden-prairie-mn
-seoTitle: "Gutter Installation West Eden Prairie, MN | EP Gutters"
+seoTitle: "Gutter Installation West Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation and downspout placement for West Eden Prairie's wooded, ravine-lot custom homes along Dell Road. Free estimates."
 h1: "West Eden Prairie Gutter Installation"
 eyebrow: "West Eden Prairie"

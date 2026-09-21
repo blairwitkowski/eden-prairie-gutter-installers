@@ -2,6 +2,7 @@
 pageType: legal
 slug: terms-conditions
 seoTitle: "Terms & Conditions | Eden Prairie Gutter Installers"
+metaDescription: "Terms and conditions for using the Eden Prairie Gutter Installers website and requesting a free estimate."
 h1: "Terms & Conditions"
 breadcrumbLabel: "Terms & Conditions"
 index: false

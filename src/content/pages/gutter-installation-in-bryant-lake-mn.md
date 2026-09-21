@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-bryant-lake-mn
-seoTitle: "Gutter Installation Bryant Lake Area, MN | EP Gutters"
+seoTitle: "Gutter Installation Bryant Lake Area, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation and cleaning for the wooded, lakefront Bryant Lake area of Eden Prairie, where heavy tree cover drives most gutter calls."
 h1: "Bryant Lake Gutter Installation"
 eyebrow: "Bryant Lake area, Eden Prairie"

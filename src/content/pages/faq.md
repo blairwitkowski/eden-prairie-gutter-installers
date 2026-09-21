@@ -2,6 +2,7 @@
 pageType: core
 slug: faq
 seoTitle: "Gutter FAQs | Eden Prairie Gutter Installers"
+metaDescription: "Answers to the gutter installation, repair, cleaning, and cost questions Eden Prairie, MN homeowners ask us most often before booking an estimate."
 h1: "Gutter Questions, Answered"
 eyebrow: "Common questions"
 breadcrumbLabel: "FAQ"

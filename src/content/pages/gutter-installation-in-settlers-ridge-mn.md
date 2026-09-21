@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-settlers-ridge-mn
-seoTitle: "Gutter Installation in Settlers Ridge, MN | EP Gutters"
+seoTitle: "Gutter Installation in Settlers Ridge, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation for Settlers Ridge and Reeder Ridge's newest custom bluff-line homes, sized for multi-valley rooflines. Free estimates."
 h1: "Settlers Ridge Gutter Installation"
 eyebrow: "Settlers Ridge, Eden Prairie"

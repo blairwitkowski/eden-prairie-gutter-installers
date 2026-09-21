@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-central-eden-prairie-mn
-seoTitle: "Gutter Installation Central Eden Prairie, MN | EP Gutters"
+seoTitle: "Gutter Installation Central Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation and cleaning for Central Eden Prairie's mixed single-family, townhome, and condo housing near Purgatory Creek Park."
 h1: "Central Eden Prairie Gutter Installation"
 eyebrow: "Central Eden Prairie / City Center"

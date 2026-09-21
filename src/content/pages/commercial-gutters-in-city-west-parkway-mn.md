@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: commercial-gutters-in-city-west-parkway-mn
-seoTitle: "Commercial Gutters City West Parkway, MN | EP Gutters"
+seoTitle: "Commercial Gutters City West Parkway, MN | Eden Prairie Gutter Installers"
 metaDescription: "Commercial drainage for City West Parkway's 1980s office and medical buildings, including scupper and internal-drain service. Free estimates."
 h1: "City West Parkway Gutter Installation"
 eyebrow: "City West Parkway, Eden Prairie"

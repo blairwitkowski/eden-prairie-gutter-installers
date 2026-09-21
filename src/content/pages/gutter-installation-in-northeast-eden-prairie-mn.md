@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-northeast-eden-prairie-mn
-seoTitle: "Gutter Installation NE Eden Prairie, MN | EP Gutters"
+seoTitle: "Gutter Installation NE Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter replacement and repair for Northeast Eden Prairie's original 1960s-70s split-entry and rambler homes under mature tree canopy."
 h1: "Northeast Eden Prairie Gutter Installation"
 eyebrow: "Northeast Eden Prairie"

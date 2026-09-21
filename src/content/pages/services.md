@@ -2,7 +2,7 @@
 pageType: core
 slug: services
 seoTitle: "Gutter Services in Eden Prairie, MN | Eden Prairie Gutter Installers"
-metaDescription: "Gutter installation, cleaning, repair, downspouts, copper gutters, and commercial gutters in Eden Prairie, MN."
+metaDescription: "Gutter installation, cleaning, repair, downspouts, copper gutters, and commercial gutters, all handled by one Eden Prairie crew. Free estimates."
 h1: "Gutter Services"
 eyebrow: "What we do"
 breadcrumbLabel: "Services"

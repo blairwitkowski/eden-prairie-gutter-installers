@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-round-lake-park-mn
-seoTitle: "Gutter Installation Near Round Lake Park, MN | EP Gutters"
+seoTitle: "Gutter Installation Near Round Lake Park, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation, repair, and cleaning for established homes around Round Lake Park in Eden Prairie. Free, in-person estimates."
 h1: "Round Lake Park Gutter Installation"
 eyebrow: "Round Lake Park area, Eden Prairie"

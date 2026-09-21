@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-olympic-hills-mn
-seoTitle: "Gutter Installation in Olympic Hills, MN | EP Gutters"
+seoTitle: "Gutter Installation in Olympic Hills, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation and repair for Olympic Hills homes on rolling, golf-course terrain, sized to match how each lot actually drains."
 h1: "Olympic Hills Gutter Installation"
 eyebrow: "Olympic Hills, Eden Prairie"

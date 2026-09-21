@@ -1,7 +1,7 @@
 ---
 pageType: home
 slug: ""
-seoTitle: "Eden Prairie Gutter Installers – Gutter Installation & Repair – Eden Prairie, MN"
+seoTitle: "Eden Prairie Gutter Installers | Gutter Installation & Repair"
 metaDescription: "Gutter installation, repair, cleaning, and commercial drainage across Eden Prairie, MN. Free estimates, experienced in-house crew, no subcontractors."
 h1: "Gutter Installer Eden Prairie, MN"
 eyebrow: "Local Eden Prairie Gutter Experts"

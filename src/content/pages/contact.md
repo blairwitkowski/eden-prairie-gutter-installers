@@ -1,7 +1,7 @@
 ---
 pageType: core
 slug: contact
-seoTitle: "Contact Eden Prairie Gutter Installers | Eden Prairie Gutter Installers"
+seoTitle: "Contact Us | Eden Prairie Gutter Installers"
 metaDescription: "Get in touch with Eden Prairie Gutter Installers for gutter installation, repair, cleaning, and commercial drainage in Eden Prairie, MN."
 h1: "Contact us"
 eyebrow: "Eden Prairie, MN"

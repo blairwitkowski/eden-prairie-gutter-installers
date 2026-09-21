@@ -2,6 +2,7 @@
 pageType: legal
 slug: privacy-policy
 seoTitle: "Privacy Policy | Eden Prairie Gutter Installers"
+metaDescription: "Privacy policy for Eden Prairie Gutter Installers, covering how contact and estimate form information is used."
 h1: "Privacy Policy"
 breadcrumbLabel: "Privacy Policy"
 index: false

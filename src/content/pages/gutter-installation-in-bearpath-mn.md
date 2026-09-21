@@ -1,7 +1,7 @@
 ---
 pageType: location
 slug: gutter-installation-in-bearpath-mn
-seoTitle: "Gutter Installation in Bearpath, MN | EP Gutters"
+seoTitle: "Gutter Installation in Bearpath, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter installation and repair for Bearpath's custom estates, sized for steep, valley-fed rooflines that concentrate storm runoff. Free estimates."
 h1: "Bearpath Gutter Installation"
 eyebrow: "Bearpath, Eden Prairie"
