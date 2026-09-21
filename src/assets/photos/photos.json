@@ -1,9 +1,10 @@
 {
   "images": [
     {
-      "file": "logo.svg",
+      "file": "logo.png",
       "alt": "Eden Prairie Gutter Installers logo",
-      "real": true
+      "real": true,
+      "source": "user-supplied"
     },
     {
       "file": "real-gutter-guard-closeup.jpg",
