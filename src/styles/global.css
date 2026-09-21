@@ -53,11 +53,11 @@ nav.main a{text-decoration:none;color:var(--text);white-space:nowrap;transition:
 
 /* hero */
 .hero{position:relative;background:var(--ink);overflow:hidden;padding:0;min-height:85vh;display:flex;align-items:center}
-.hero .photo{position:absolute;inset:0 0 0 25%}
+.hero .photo{position:absolute;inset:0 0 0 25%;pointer-events:none}
 .hero .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--ink) 0%,color-mix(in srgb,var(--ink) 95%,transparent) 40%,color-mix(in srgb,var(--ink) 40%,transparent) 70%,transparent 100%)}
-.hero .wrap{position:relative;padding:clamp(6rem,12vw,10rem) 0}
+.hero .wrap{position:relative;z-index:1;padding:clamp(6rem,12vw,10rem) 0}
 .hero .copy{max-width:720px}
-.hero h1{font-size:clamp(3.5rem, 6vw, 5rem);color:#fff;line-height:.95}
+.hero h1{font-size:clamp(3.5rem, 6vw, 5rem);color:#fff;line-height:.95;user-select:text}
 .hero p.sub{font-size:1.25rem;margin-top:1.8rem;max-width:58ch;color:rgba(255,255,255,.85)}
 .hero .actions{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2.5rem}
 .facts{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:0;margin-top:clamp(4rem,8vw,6rem);border-top:1px solid rgba(255,255,255,.15);padding-top:2rem}
