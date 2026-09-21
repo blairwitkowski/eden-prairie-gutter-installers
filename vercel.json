@@ -1,1 +1,4 @@
-{ "trailingSlash": true }
+{
+  "outputDirectory": "dist/public",
+  "trailingSlash": true
+}
