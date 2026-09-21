@@ -3,7 +3,7 @@ pageType: service
 slug: gutter-installation
 seoTitle: "Gutter Installation in Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "One-piece, custom-fabricated gutter installation for Eden Prairie, MN homes. Sized for steep rooflines and Minnesota winters. Free estimates."
-h1: "Gutter Installation Built For Eden Prairie Rooflines"
+h1: "Gutter Installation in Eden Prairie, MN"
 eyebrow: "Gutter Installation"
 breadcrumbLabel: "Gutter Installation"
 navLabel: "Installation"

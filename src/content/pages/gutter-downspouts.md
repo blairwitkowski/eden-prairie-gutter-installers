@@ -3,7 +3,7 @@ pageType: service
 slug: gutter-downspouts
 seoTitle: "Gutter Downspouts in Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Downspout sizing, placement, and extensions to keep water away from Eden Prairie foundations and walkout basements. Free estimates."
-h1: "Downspouts That Actually Move Water Away From Your House"
+h1: "Gutter Downspouts in Eden Prairie, MN"
 eyebrow: "Gutter Downspouts"
 breadcrumbLabel: "Gutter Downspouts"
 navLabel: "Downspouts"

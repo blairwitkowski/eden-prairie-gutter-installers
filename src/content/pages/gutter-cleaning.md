@@ -3,7 +3,7 @@ pageType: service
 slug: gutter-cleaning
 seoTitle: "Gutter Cleaning in Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Seasonal gutter cleaning for Eden Prairie, MN homes, including heavy tree-canopy neighborhoods near Bryant Lake and Purgatory Creek. Free estimates."
-h1: "Gutter Cleaning That Catches Problems Before Spring"
+h1: "Gutter Cleaning in Eden Prairie, MN"
 eyebrow: "Gutter Cleaning"
 breadcrumbLabel: "Gutter Cleaning"
 navLabel: "Cleaning"

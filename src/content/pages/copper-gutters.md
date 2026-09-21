@@ -3,7 +3,7 @@ pageType: service
 slug: copper-gutters
 seoTitle: "Copper Gutters in Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Custom-fabricated copper gutter installation for Eden Prairie, MN homes. A premium option that outlasts standard aluminum. Free estimates."
-h1: "Copper Gutters For Homes Built to Last"
+h1: "Copper Gutters in Eden Prairie, MN"
 eyebrow: "Copper Gutters"
 breadcrumbLabel: "Copper Gutters"
 navLabel: "Copper"

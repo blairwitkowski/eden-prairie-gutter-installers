@@ -3,7 +3,7 @@ pageType: service
 slug: commercial-gutters
 seoTitle: "Commercial Gutters in Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Commercial gutter and low-slope roof drainage for Eden Prairie office and flex buildings, including the Golden Triangle and City West Parkway."
-h1: "Commercial Gutters And Drainage For Eden Prairie's Business Parks"
+h1: "Commercial Gutters in Eden Prairie, MN"
 eyebrow: "Commercial Gutters"
 breadcrumbLabel: "Commercial Gutters"
 navLabel: "Commercial"

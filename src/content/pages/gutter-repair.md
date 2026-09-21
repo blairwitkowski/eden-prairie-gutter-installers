@@ -3,7 +3,7 @@ pageType: service
 slug: gutter-repair
 seoTitle: "Gutter Repair in Eden Prairie, MN | Eden Prairie Gutter Installers"
 metaDescription: "Gutter repair for sagging sections, split seams, and hanger failures across Eden Prairie, MN. Free estimates, no full-replacement upsell."
-h1: "Gutter Repair, Without The Push to Replace Everything"
+h1: "Gutter Repair in Eden Prairie, MN"
 eyebrow: "Gutter Repair"
 breadcrumbLabel: "Gutter Repair"
 navLabel: "Repair"
