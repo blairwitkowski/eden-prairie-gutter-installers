@@ -176,7 +176,7 @@ footer .footer-logo img{display:block;width:100%;height:auto;object-fit:contain}
 footer address{font-style:normal;margin:0 0 .8rem}
 footer address strong,footer address span{display:block}
 footer address strong{color:#fff;font-weight:700}
-footer .bar{margin-top:4rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.1);font-size:.9rem}
+footer .bar{display:flex;justify-content:space-between;align-items:center;gap:1rem 2rem;flex-wrap:wrap;margin-top:4rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.1);font-size:.9rem}
 @media(max-width:860px){footer .cols{grid-template-columns:1fr 1fr}}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}

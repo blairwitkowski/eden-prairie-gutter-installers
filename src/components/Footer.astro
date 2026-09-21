@@ -31,6 +31,9 @@ const ext = site.externalLinks || {};
       </ul>
     </div>
   </div>
-  <div class="bar">© {site.businessName} {legal.map((l) => <>&nbsp; <a href={href(l.slug)}>{l.breadcrumbLabel || l.h1}</a></>)}</div>
+  <div class="bar">
+    <div>© {site.businessName} {legal.map((l) => <>&nbsp; <a href={href(l.slug)}>{l.breadcrumbLabel || l.h1}</a></>)}</div>
+    <div>Site Built by BW</div>
+  </div>
 </div></footer>
 <div class="callbar"><a class={telClass} href={telHref}>Call now</a><a href={estimateHref}>{estimateShort}</a></div>
