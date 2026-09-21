@@ -1,0 +1,28 @@
+---
+import { site, byType, hasPage, href, telHref, telClass, estimateHref, estimateLabel, estimateShort } from '../lib/site.js';
+const services = byType('service');
+const company = ['about','reviews','service-areas','faq','contact','careers','meet-the-team'].filter(hasPage);
+const legal = byType('legal');
+const label = (s) => s.split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ').replace('Faq','FAQ');
+const ext = site.externalLinks || {};
+---
+<footer><div class="wrap">
+  <div class="cols">
+    <div><h4>About {site.businessName}</h4><p>{site.footerAbout}</p></div>
+    {services.length > 0 && <div><h4>Services</h4><ul>{services.map((s) => <li><a href={href(s.slug)}>{s.navLabel || s.breadcrumbLabel || s.h1}</a></li>)}</ul></div>}
+    <div><h4>Company</h4><ul>
+      {company.map((s) => <li><a href={href(s)}>{label(s)}</a></li>)}
+      {(site.footerLocations || []).map((l) => <li><a href={l.to}>{l.anchor}</a></li>)}
+    </ul></div>
+    <div><h4>Get in touch</h4><ul>
+      <li><a class={telClass} href={telHref}>{site.phoneDisplay}</a></li>
+      {site.email && <li><a href={`mailto:${site.email}`}>{site.email}</a></li>}
+      {site.address?.street && <li>{site.address.street}, {site.address.city}, {site.address.state} {site.address.zip}</li>}
+      <li><a href={estimateHref}>{estimateLabel}</a></li>
+      {ext.mainSite?.url && ext.mainSite.placements?.includes('footer') && <li><a href={ext.mainSite.url}>{ext.mainSite.anchor}</a></li>}
+      {ext.gbp?.url && ext.gbp.placements?.includes('footer') && <li><a href={ext.gbp.url} rel="noopener">{ext.gbp.anchor}</a></li>}
+    </ul></div>
+  </div>
+  <div class="bar">© {site.businessName} {legal.map((l) => <>&nbsp; <a href={href(l.slug)}>{l.breadcrumbLabel || l.h1}</a></>)}</div>
+</div></footer>
+<div class="callbar"><a class={telClass} href={telHref}>Call now</a><a href={estimateHref}>{estimateShort}</a></div>

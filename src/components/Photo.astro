@@ -1,0 +1,18 @@
+---
+// Renders a photo from src/assets/photos by filename. If the file isn't there yet,
+// shows a striped block naming the missing file so it's obvious what to add.
+import { Image } from 'astro:assets';
+const { file, alt = '', eager = false, widths = [480, 800, 1200, 1600], sizes = '(max-width: 800px) 100vw, 50vw' } = Astro.props;
+const all = import.meta.glob('../assets/photos/*.{jpg,jpeg,png,webp,avif,svg,JPG,JPEG,PNG}', { eager: true });
+const hit = file ? Object.entries(all).find(([p]) => p.endsWith('/' + file)) : null;
+const src = hit ? hit[1].default : null;
+const isSvg = file?.toLowerCase().endsWith('.svg');
+---
+{src && isSvg ? (
+  <img src={src.src} alt={alt} loading={eager ? 'eager' : 'lazy'} style="object-fit:contain;background:var(--tint)" />
+) : src ? (
+  <Image src={src} alt={alt} widths={widths.filter((w) => w <= src.width).concat(src.width < widths[0] ? [src.width] : [])} sizes={sizes}
+    loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} />
+) : (
+  <div class="photo-missing" role="img" aria-label={alt}>{file ? `Add photo: ${file}` : 'No photo assigned'}</div>
+)}

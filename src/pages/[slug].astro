@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import { site, pages, byType, href } from '../lib/site.js';
+import PageHead from '../components/PageHead.astro'; import Side from '../components/Side.astro';
+import LinkLists from '../components/LinkLists.astro'; import Faq from '../components/Faq.astro';
+import Reviews from '../components/Reviews.astro'; import CtaBand from '../components/CtaBand.astro';
+import ServiceCards from '../components/ServiceCards.astro'; import Areas from '../components/Areas.astro';
+import EstimateForm from '../components/EstimateForm.astro'; import Receipts from '../components/Receipts.astro';
+import Photo from '../components/Photo.astro';
+
+export function getStaticPaths() {
+  return pages.filter((p) => p.slug).map((p) => ({ params: { slug: p.slug }, props: { page: p } }));
+}
+const { page } = Astro.props; const { Content } = page;
+const t = page.pageType; const slug = page.slug;
+const money = t === 'service' || t === 'location';
+const hasForm = ['contact', 'estimate'].includes(slug);
+const leanServices = slug === 'services' && byType('service').length === 0;
+const ext = site.externalLinks || {};
+---
+<Base page={page}>
+  <PageHead page={page} actions={t !== 'legal' && slug !== 'thank-you'} />
+
+  {slug === 'services' && !leanServices && <ServiceCards head={{}} tint={false} button={false} />}
+  {leanServices && <section><div class="wrap rows">{(site.services || []).map((s) => (
+    <div class="row"><div class="pic"><Photo file={s.image} alt={s.alt} /></div><div><h2>{s.name}</h2><p style="margin-top:1rem">{s.body}</p></div></div>
+  ))}</div></section>}
+  {slug === 'service-areas' && <Areas head={{ title: page.areasTitle || 'Where we work' }} />}
+  {slug === 'reviews' && <Reviews head={{ title: page.reviewsTitle || 'Reviews' }} limit={50} tint={false} />}
+
+  <section><div class:list={['wrap article', { single: !money && !hasForm }]}>
+    <div class="prose">
+      <Content />
+      {slug === 'about' && ext.mainSite?.url && ext.mainSite.placements?.includes('about') && <p><a href={ext.mainSite.url}>{ext.mainSite.anchor}</a></p>}
+      {slug === 'contact' && ext.gbp?.url && ext.gbp.placements?.includes('contact') && <p><a href={ext.gbp.url} rel="noopener">{ext.gbp.anchor}</a></p>}
+    </div>
+    {money && <Side page={page} />}
+    {hasForm && <EstimateForm title={slug === 'contact' ? 'Send us a message' : undefined} />}
+  </div></section>
+
+  {page.gallery?.length > 0 && <section style="padding-top:0"><div class="wrap strip">{page.gallery.slice(0, 3).map((g) => (
+    <figure><div class="pic"><Photo file={g.image} alt={g.alt} sizes="(max-width:760px) 100vw, 33vw" /></div>{g.caption && <figcaption>{g.caption}</figcaption>}</figure>
+  ))}</div></section>}
+  {money && <LinkLists page={page} />}
+  {slug === 'about' && <Receipts head={{ title: 'Facts you can check' }} />}
+  <Faq faqs={page.faqs} head={slug === 'faq' ? {} : { title: page.faqTitle || 'Questions we hear a lot' }} level={slug === 'faq' ? 'h2' : 'h3'} tint={!money} />
+  {money && <Reviews head={{ title: 'What customers say' }} tint={false} />}
+  {slug === 'service-areas' && site.mapEmbed && <div class="map" set:html={site.mapEmbed} />}
+  {t !== 'legal' && slug !== 'thank-you' && <CtaBand kicker={page.ctaKicker} title={page.ctaTitle} />}
+</Base>

@@ -1,0 +1,21 @@
+---
+import { site, accent, estimateHref, telHref, telClass, estimateLabel } from '../lib/site.js';
+import Photo from './Photo.astro';
+const { page } = Astro.props; const h = page.hero || {};
+const facts = site.facts || [];
+---
+<section class="hero on-dark">
+  <div class="photo"><Photo file={h.image} alt={h.alt} eager sizes="(max-width:760px) 100vw, 62vw" /></div>
+  <div class="wrap">
+    <div class="copy">
+      {page.eyebrow && <div class="kicker">{page.eyebrow}</div>}
+      <h1 set:html={accent(page.h1, h.hl)} />
+      {h.sub && <p class="sub">{h.sub}</p>}
+      <div class="actions">
+        <a class="btn btn-primary" href={estimateHref}>{estimateLabel}</a>
+        <a class:list={['btn btn-ghost', telClass]} href={telHref}>Call {site.phoneDisplay}</a>
+      </div>
+    </div>
+    {facts.length > 0 && <div class="facts">{facts.slice(0, 4).map((f) => <div><b>{f.value}</b><span>{f.caption}</span></div>)}</div>}
+  </div>
+</section>

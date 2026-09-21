@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Gutter service illustration</title>
+  <desc id="desc">A simple trade illustration for Eden Prairie Gutter Installers.</desc>
+  <path d="M150 725V470m0 55-90-70m90 125 105-110M1450 725V465m0 55-95-80m95 130 100-110" fill="none" stroke="#3E5D4B" stroke-width="26" stroke-linecap="round"/>
+       <circle cx="150" cy="455" r="118" fill="#5D7766" opacity=".88"/><circle cx="76" cy="506" r="86" fill="#5D7766" opacity=".78"/>
+       <circle cx="1450" cy="450" r="124" fill="#5D7766" opacity=".88"/><circle cx="1530" cy="510" r="90" fill="#5D7766" opacity=".78"/>
+    <path d="M0 730h1600v170H0z" fill="#EEF2F8"/>
+    <path d="M260 545L800 260L1340 545v390H260Z" fill="#F8F4EB" stroke="#14284B" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M218 560L800 228L1382 560" fill="none" stroke="#14284B" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M236 578H1364" stroke="#FDBA4D" stroke-width="24" stroke-linecap="round"/>
+    <rect x="410" y="670" width="168" height="246" rx="8" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/>
+    <path d="M494 670v246M410 792h168" stroke="#14284B" stroke-width="10"/>
+    <rect x="990" y="662" width="182" height="130" rx="8" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/>
+    <path d="M1081 662v130M990 727h182" stroke="#14284B" stroke-width="10"/>
+    <path d="M1300 595v332" stroke="#C2410C" stroke-width="34" stroke-linecap="round"/>
+    <path d="M1300 926c0 65 42 88 94 88h62" fill="none" stroke="#C2410C" stroke-width="34" stroke-linecap="round"/>
+</svg>

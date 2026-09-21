@@ -1,0 +1,13 @@
+---
+import { site, hasPage } from '../lib/site.js'; import Heading from './Heading.astro';
+const { head = {} } = Astro.props; const groups = site.areaGroups || [];
+---
+{groups.length > 0 && (
+<section id="areas"><div class="wrap areas">
+  <div><Heading kicker={head.kicker} title={head.title} hl={head.hl} lede={head.lede} />
+    {hasPage('service-areas') && <p style="margin-top:1.5rem"><a class="btn btn-line" href="/service-areas/">View service area</a></p>}</div>
+  <div class="counties">{groups.map((g) => (
+    <div><h3>{g.name}</h3><ul>{g.places.map((p) => <li>{p.to ? <a href={p.to}>{p.anchor}</a> : <span style="display:block;padding:.35rem 0;font-weight:600">{p.anchor}</span>}</li>)}</ul></div>
+  ))}</div>
+</div></section>
+)}

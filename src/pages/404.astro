@@ -1,0 +1,6 @@
+---
+import Base from '../layouts/Base.astro'; import { site, telHref } from '../lib/site.js';
+const page = { slug: '404', pageType: 'legal', index: false, seoTitle: `Page not found | ${site.businessName}`, h1: 'That page is not here' };
+---
+<Base page={page}><section><div class="wrap"><h1>That page is not here</h1>
+<p class="lede">The link may be old. Head back to the <a href="/">home page</a>, or call us at <a href={telHref}>{site.phoneDisplay}</a>.</p></div></section></Base>

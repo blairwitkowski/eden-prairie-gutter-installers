@@ -1,0 +1,10 @@
+---
+import { site, estimateHref, telHref, telClass, estimateLabel } from '../lib/site.js';
+const { kicker = 'Get it handled', title = `Call ${site.businessName}` } = Astro.props; const checks = site.ctaChecks || [];
+---
+<section id="cta" class="cta on-dark"><div class="wrap">
+  <div><div class="kicker">{kicker}</div><h2>{title}</h2>
+    <a class:list={['tel', telClass]} href={telHref}>{site.phoneDisplay}</a>
+    <a class="btn btn-primary" href={estimateHref}>{estimateLabel}</a></div>
+  {checks.length > 0 && <ul>{checks.map((c) => <li>{c}</li>)}</ul>}
+</div></section>

@@ -1,0 +1,12 @@
+---
+import { site, estimateHref, telHref, telClass, estimateLabel } from '../lib/site.js'; import Photo from './Photo.astro';
+const { page } = Astro.props; const d = page.localDetails || [];
+---
+<aside class="side">
+  <div class="card-cta"><h2>Talk to {site.businessName}</h2>
+    <a class:list={['tel', telClass]} href={telHref}>{site.phoneDisplay}</a>
+    <a class="btn btn-primary" href={estimateHref}>{estimateLabel}</a>
+    {site.ctaChecks?.length > 0 && <ul>{site.ctaChecks.slice(0, 4).map((c) => <li>{c}</li>)}</ul>}</div>
+  {d.length > 0 && <div class="local"><h2>{page.city} at a glance</h2><dl>{d.map((x) => <div><dt>{x.label}</dt><dd>{x.value}</dd></div>)}</dl></div>}
+  {page.sideImage && <div class="pic"><Photo file={page.sideImage} alt={page.sideAlt} sizes="340px" /></div>}
+</aside>

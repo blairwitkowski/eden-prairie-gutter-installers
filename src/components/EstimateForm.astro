@@ -1,0 +1,25 @@
+---
+import { site, byType, estimateLabel } from '../lib/site.js';
+const { title = estimateLabel } = Astro.props;
+const options = byType('service').map((s) => s.navLabel || s.breadcrumbLabel || s.h1);
+const fallback = (site.services || []).map((s) => s.name);
+const list = options.length ? options : fallback;
+---
+<div class="formbox" id="estimate">
+  <h2 style="font-size:1.6rem;margin-bottom:1.2rem">{title}</h2>
+  <form class="form" action={site.formEndpoint || '#'} method="POST">
+    <input type="hidden" name="redirect" value={`${site.siteUrl}/thank-you/`} />
+    <div class="hp" aria-hidden="true"><label>Leave empty<input type="text" name="botcheck" tabindex="-1" autocomplete="off" /></label></div>
+    <div><label for="f-first">First name</label><input id="f-first" name="first_name" required autocomplete="given-name" /></div>
+    <div><label for="f-last">Last name</label><input id="f-last" name="last_name" required autocomplete="family-name" /></div>
+    <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" required autocomplete="tel" /></div>
+    <div><label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email" /></div>
+    <div><label for="f-zip">Property address or ZIP</label><input id="f-zip" name="address" autocomplete="street-address" /></div>
+    <div><label for="f-svc">Service needed</label><select id="f-svc" name="service">{list.map((o) => <option>{o}</option>)}<option>Something else</option></select></div>
+    <div><label for="f-contact">Best way to reach you</label><select id="f-contact" name="contact_method"><option>Call</option><option>Text</option><option>Email</option></select></div>
+    <div><label for="f-heard">How did you hear about us?</label><select id="f-heard" name="heard"><option>Google</option><option>Other search engine</option><option>Social media</option><option>Saw our trucks</option><option>Friend, family, or past client</option></select></div>
+    <div class="full"><label for="f-msg">What's going on?</label><textarea id="f-msg" name="message"></textarea></div>
+    <div class="full"><button class="btn btn-primary" type="submit">Send my request</button>
+      {site.formConsent && <p><small>{site.formConsent}</small></p>}</div>
+  </form>
+</div>

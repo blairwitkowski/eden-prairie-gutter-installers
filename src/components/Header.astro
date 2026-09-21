@@ -1,0 +1,43 @@
+---
+import { site, byType, hasPage, href, estimateHref, telHref, telClass, estimateShort } from '../lib/site.js';
+import Photo from './Photo.astro';
+const services = byType('service');
+const nav = [
+  hasPage('service-areas') && { name: 'Service Area', to: '/service-areas/' },
+  hasPage('about') && { name: 'About', to: '/about/' },
+  hasPage('reviews') && { name: 'Reviews', to: '/reviews/' },
+  hasPage('faq') && { name: 'FAQ', to: '/faq/' },
+  hasPage('contact') && { name: 'Contact', to: '/contact/' },
+].filter(Boolean);
+---
+<header class="site"><div class="wrap">
+  <a class="logo" href="/" aria-label={`${site.businessName} home`}>
+    {site.logo ? <Photo file={site.logo} alt={site.businessName} eager widths={[320]} sizes="220px" /> : <>{site.businessName}{site.tagline && <span>{site.tagline}</span>}</>}
+  </a>
+  <nav class="main" aria-label="Main">
+    {services.length > 0 ? (
+      <div class="has-sub">
+        <a href={hasPage('services') ? '/services/' : href(services[0].slug)}>Services</a>
+        <div class="sub">{services.map((s) => <a href={href(s.slug)}>{s.navLabel || s.breadcrumbLabel || s.h1}</a>)}</div>
+      </div>
+    ) : hasPage('services') && <a href="/services/">Services</a>}
+    {nav.map((n) => <a href={n.to}>{n.name}</a>)}
+  </nav>
+  <div class="head-cta">
+    <a class="btn btn-line" href={site.bookingUrl || estimateHref}>{site.bookingUrl ? 'Book online' : estimateShort}</a>
+    <a class:list={['btn btn-primary', telClass]} href={telHref}>{site.phoneDisplay}</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+  </div>
+</div>
+<div class="mobile-nav" id="mobile-nav"><div class="wrap">
+  {services.length > 0 && <div class="group">Services</div>}
+  {services.map((s) => <a href={href(s.slug)}>{s.navLabel || s.breadcrumbLabel || s.h1}</a>)}
+  {services.length === 0 && hasPage('services') && <a href="/services/">Services</a>}
+  <div class="group">Company</div>
+  {nav.map((n) => <a href={n.to}>{n.name}</a>)}
+</div></div>
+</header>
+<script>
+  const b = document.querySelector('.menu-btn'), m = document.getElementById('mobile-nav');
+  b?.addEventListener('click', () => { const o = m.classList.toggle('open'); b.setAttribute('aria-expanded', String(o)); });
+</script>

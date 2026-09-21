@@ -1,0 +1,16 @@
+---
+import Heading from './Heading.astro'; import Photo from './Photo.astro';
+const { data } = Astro.props;
+---
+{data && (
+<section id="about" class="dark on-dark"><div class="wrap split">
+  <div class="frame"><div class="pic"><Photo file={data.image} alt={data.alt} /></div>
+    {data.chipValue && <div class="chip"><b>{data.chipValue}</b><span>{data.chipCaption}</span></div>}</div>
+  <div>
+    <Heading kicker={data.kicker} title={data.title} hl={data.hl} />
+    {(data.paragraphs || []).map((p) => <p style="margin-top:1.1rem">{p}</p>)}
+    {data.checks?.length > 0 && <ul class="checks">{data.checks.map((c) => <li>{c}</li>)}</ul>}
+    {data.buttonTo && <a class="btn btn-ghost" href={data.buttonTo}>{data.buttonLabel}</a>}
+  </div>
+</div></section>
+)}

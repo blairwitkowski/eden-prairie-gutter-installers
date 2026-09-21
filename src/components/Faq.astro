@@ -1,0 +1,11 @@
+---
+import Heading from './Heading.astro';
+const { faqs = [], head = {}, tint = true, level = 'h3' } = Astro.props; const Q = level;
+---
+{faqs.length > 0 && (
+<section id="faq" class:list={[{ tint }]}><div class="wrap">
+  {head.title && <Heading kicker={head.kicker} title={head.title} hl={head.hl} />}
+  <div class="faq" style="margin-top:1.5rem">{faqs.map((f) => <div class="q"><Q>{f.q}</Q><p>{f.a}</p></div>)}</div>
+</div></section>
+)}
+<style>.faq :global(h2){font-size:1.25rem;margin-bottom:.5rem}</style>

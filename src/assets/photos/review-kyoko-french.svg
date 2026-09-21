@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Gutter project detail illustration</title>
+  <desc id="desc">A simple trade illustration for Eden Prairie Gutter Installers.</desc>
+  <rect width="1600" height="900" fill="#EEF2F8"/>
+      <path d="M190 610h1220V370H190Z" fill="#B9C9D4" stroke="#14284B" stroke-width="24"/>
+      <path d="M190 370h1220" stroke="#FDBA4D" stroke-width="32"/>
+      <path d="M430 370v-120m370 120V190m370 180V250" stroke="#14284B" stroke-width="18"/>
+      <path d="M1180 370v300c0 58 42 90 100 90h120" fill="none" stroke="#C2410C" stroke-width="32" stroke-linecap="round"/>
+</svg>

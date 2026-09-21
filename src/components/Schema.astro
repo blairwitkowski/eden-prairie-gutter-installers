@@ -1,0 +1,32 @@
+---
+// LOCKED: schema output. Built only from site.json and page frontmatter.
+import { site, href, crumbsFor } from '../lib/site.js';
+const { page } = Astro.props;
+const base = site.siteUrl.replace(/\/$/, '');
+const abs = (p) => base + p;
+const bizId = `${base}/#business`;
+const business = {
+  '@type': site.schemaType, '@id': bizId, name: site.businessName, url: base + '/', telephone: site.phoneE164,
+  ...(site.additionalType && { additionalType: site.additionalType }),
+  ...(site.email && { email: site.email }),
+  ...(site.address?.street && { address: { '@type': 'PostalAddress', streetAddress: site.address.street, addressLocality: site.address.city, addressRegion: site.address.state, postalCode: site.address.zip, addressCountry: 'US' } }),
+  ...(site.geo?.lat && { geo: { '@type': 'GeoCoordinates', latitude: site.geo.lat, longitude: site.geo.lng } }),
+  ...(site.hours?.length && { openingHoursSpecification: site.hours.map((h) => ({ '@type': 'OpeningHoursSpecification', dayOfWeek: h.days, opens: h.opens, closes: h.closes })) }),
+  ...(site.areaServed?.length && { areaServed: site.areaServed.map((a) => ({ '@type': 'City', name: `${a.name}, ${a.state}`, ...(a.sameAs && { sameAs: a.sameAs }) })) }),
+  ...(site.sameAs?.length && { sameAs: site.sameAs }),
+  ...(site.owner?.name && { founder: { '@type': 'Person', name: site.owner.name, ...(site.owner.title && { jobTitle: site.owner.title }) } }),
+};
+const graph = [business];
+if (page.pageType === 'home') graph.push({ '@type': 'WebSite', '@id': `${base}/#website`, url: base + '/', name: site.businessName, publisher: { '@id': bizId } });
+else {
+  const trail = crumbsFor(page);
+  graph.push({ '@type': 'BreadcrumbList', itemListElement: trail.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, item: abs(t.to) })) });
+}
+if (page.pageType === 'service' || page.pageType === 'location') {
+  graph.push({ '@type': 'Service', serviceType: page.serviceType || page.breadcrumbLabel || page.h1, provider: { '@id': bizId }, url: abs(href(page.slug)),
+    areaServed: page.city ? { '@type': 'City', name: page.city + (page.state ? `, ${page.state}` : '') } : business.areaServed });
+}
+if (page.faqs?.length) graph.push({ '@type': 'FAQPage', mainEntity: page.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+const json = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+---
+<script type="application/ld+json" set:html={json} />

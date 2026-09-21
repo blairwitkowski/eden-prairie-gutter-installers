@@ -1,0 +1,19 @@
+---
+import { site, crumbsFor, estimateHref, telHref, telClass, estimateLabel } from '../lib/site.js';
+import Photo from './Photo.astro';
+const { page, actions = true } = Astro.props;
+const trail = crumbsFor(page);
+---
+<section class="pagehead on-dark">
+  {page.heroImage && <div class="photo"><Photo file={page.heroImage} alt={page.heroAlt} eager sizes="(max-width:760px) 100vw, 55vw" /></div>}
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb">{trail.map((t, i) => i < trail.length - 1 ? <><a href={t.to}>{t.name}</a><span>/</span></> : <>{t.name}</>)}</nav>
+    {page.eyebrow && <div class="kicker">{page.eyebrow}</div>}
+    <h1>{page.h1}</h1>
+    {page.intro && <p class="sub">{page.intro}</p>}
+    {actions && <div class="actions">
+      <a class:list={['btn btn-primary', telClass]} href={telHref}>Call {site.phoneDisplay}</a>
+      <a class="btn btn-ghost" href={estimateHref}>{estimateLabel}</a>
+    </div>}
+  </div>
+</section>

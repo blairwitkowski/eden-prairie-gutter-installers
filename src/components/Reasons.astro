@@ -1,0 +1,13 @@
+---
+import Heading from './Heading.astro'; import Photo from './Photo.astro';
+const { data } = Astro.props;
+---
+{data?.items?.length > 0 && (
+<section><div class="wrap reasons">
+  <div>
+    <Heading kicker={data.kicker} title={data.title} hl={data.hl} lede={data.lede} />
+    <dl>{data.items.map((it) => <div class="row"><dt>{it.title}</dt><dd>{it.text}</dd></div>)}</dl>
+  </div>
+  <div class="tall"><div class="pic"><Photo file={data.image} alt={data.alt} /></div>{data.caption && <p>{data.caption}</p>}</div>
+</div></section>
+)}

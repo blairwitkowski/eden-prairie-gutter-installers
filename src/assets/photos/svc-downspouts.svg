@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Downspout drainage illustration</title>
+  <desc id="desc">A simple trade illustration for Eden Prairie Gutter Installers.</desc>
+  <rect width="1600" height="900" fill="#DDE8F5"/>
+      
+    <path d="M0 730h1600v170H0z" fill="#EEF2F8"/>
+    <path d="M220 510L690 225L1160 510v390H220Z" fill="#F8F4EB" stroke="#14284B" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M178 525L690 193L1202 525" fill="none" stroke="#14284B" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M196 543H1184" stroke="#FDBA4D" stroke-width="24" stroke-linecap="round"/>
+    <rect x="370" y="635" width="168" height="246" rx="8" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/>
+    <path d="M454 635v246M370 757h168" stroke="#14284B" stroke-width="10"/>
+    <rect x="950" y="627" width="182" height="130" rx="8" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/>
+    <path d="M1041 627v130M950 692h182" stroke="#14284B" stroke-width="10"/>
+    <path d="M1260 560v332" stroke="#C2410C" stroke-width="34" stroke-linecap="round"/>
+    <path d="M1260 891c0 65 42 88 94 88h62" fill="none" stroke="#C2410C" stroke-width="34" stroke-linecap="round"/>
+      <path d="M1160 560v190c0 55 38 92 100 92h190" fill="none" stroke="#C2410C" stroke-width="38" stroke-linecap="round"/>
+      <path d="M1370 795l150 0-75 58Z" fill="#FDBA4D" stroke="#14284B" stroke-width="12"/>
+      <path d="M1365 842c42 24 96 24 140 0" fill="none" stroke="#7FA1BA" stroke-width="12"/>
+</svg>

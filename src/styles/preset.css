@@ -1,0 +1,10 @@
+/* Generated from site.json preset "harbor". Do not edit by hand. */
+@import "@fontsource-variable/bitter";
+@import "@fontsource-variable/public-sans";
+:root{
+  --ink:#14284B; --ink-2:#1D3763; --paper:#fff; --tint:#EEF2F8; --text:#25324A; --muted:#5B6880;
+  --accent:#FFAD05; --accent-on-dark:#FCFF4B; --footer:#17191D; --radius:3px;
+  --line:color-mix(in srgb, #14284B 14%, transparent); --line-dark:rgba(255,255,255,.16);
+  --head:"Bitter Variable",Georgia,serif; --head-wdth:100; --head-weight:700; --head-track:-.01em; --head-case:none;
+  --body:"Public Sans Variable",system-ui,sans-serif; --hero-size:clamp(2.4rem,4.9vw,4.2rem);
+}

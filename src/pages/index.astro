@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import { site, findPage } from '../lib/site.js';
+import Hero from '../components/Hero.astro'; import ServiceCards from '../components/ServiceCards.astro';
+import People from '../components/People.astro'; import Projects from '../components/Projects.astro';
+import Receipts from '../components/Receipts.astro'; import Reasons from '../components/Reasons.astro';
+import Reviews from '../components/Reviews.astro'; import Areas from '../components/Areas.astro';
+import Faq from '../components/Faq.astro'; import CtaBand from '../components/CtaBand.astro';
+import Brands from '../components/Brands.astro'; import EstimateForm from '../components/EstimateForm.astro';
+const page = findPage('');
+const s = page.sections || {};
+const { Content } = page;
+---
+<Base page={page}>
+  <Hero page={page} />
+  <Brands />
+  <ServiceCards head={s.services} />
+  <People data={s.about} />
+  <Projects data={s.projects} />
+  <Receipts head={s.receipts} />
+  <Reasons data={s.reasons} />
+  <Reviews head={s.reviews} />
+  <Areas head={s.areas} />
+  <section class="home-body"><div class="wrap article single"><div class="prose"><Content /></div></div></section>
+  <Faq faqs={page.faqs} head={s.faq || { title: 'Common questions' }} />
+  {site.siteMode === 'lean' && <section><div class="wrap" style="max-width:860px"><EstimateForm /></div></section>}
+  {site.mapEmbed && <div class="map" set:html={site.mapEmbed} />}
+  <CtaBand kicker={s.cta?.kicker} title={s.cta?.title} />
+</Base>
+<style>.home-body:not(:has(.prose > *)){display:none}</style>

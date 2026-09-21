@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Commercial service area illustration</title>
+  <desc id="desc">A simple trade illustration for Eden Prairie Gutter Installers.</desc>
+  <rect width="1600" height="900" fill="#DDE8F5"/>
+      <path d="M0 720h1600v180H0Z" fill="#EEF2F8"/>
+      <path d="M180 290h1240v430H180Z" fill="#D8D3C9" stroke="#14284B" stroke-width="24"/>
+      <path d="M180 290h1240l-76-120H256Z" fill="#1D3763" stroke="#14284B" stroke-width="22"/>
+      <path d="M180 720h1240" stroke="#FDBA4D" stroke-width="34"/>
+      <rect x="310" y="420" width="120" height="160" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/><rect x="550" y="420" width="120" height="160" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/><rect x="790" y="420" width="120" height="160" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/><rect x="1030" y="420" width="120" height="160" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/><rect x="1270" y="420" width="120" height="160" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/>
+      <path d="M1200 170v500" stroke="#C2410C" stroke-width="30" stroke-linecap="round"/>
+      <path d="M1200 670h160" stroke="#C2410C" stroke-width="30" stroke-linecap="round"/>
+</svg>

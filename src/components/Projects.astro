@@ -1,0 +1,14 @@
+---
+import Heading from './Heading.astro'; import Photo from './Photo.astro';
+const { data } = Astro.props; const items = data?.items || [];
+---
+{items.length >= 3 && (
+<section id="work"><div class="wrap">
+  <Heading kicker={data.kicker} title={data.title} hl={data.hl} lede={data.lede} />
+  <div class="proj" style="margin-top:2.5rem">
+    {items.slice(0, 5).map((it, i) => (
+      <figure class:list={[{ big: i === 0 }]}><Photo file={it.image} alt={it.alt} />{it.caption && <figcaption>{it.caption}</figcaption>}</figure>
+    ))}
+  </div>
+</div></section>
+)}

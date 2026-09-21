@@ -1,0 +1,10 @@
+---
+import { site } from '../lib/site.js'; import Photo from './Photo.astro';
+const b = site.brands || [];
+---
+{b.length > 0 && (
+<section style="padding:2.5rem 0;border-bottom:1px solid var(--line)"><div class="wrap">
+  <div class="kicker">Gutter Guards We Install</div>
+  <div class="brands">{b.map((x) => x.url ? <a href={x.url} rel="noopener" target="_blank">{x.logo ? <Photo file={x.logo} alt={x.name} widths={[240]} sizes="120px" /> : x.name}</a> : <span>{x.name}</span>)}</div>
+</div></section>
+)}

@@ -1,0 +1,90 @@
+{
+  "siteUrl": "https://www.edenprairiegutterinstallers.com",
+  "siteMode": "single-city",
+  "preset": "harbor",
+  "brandAccent": "#FFAD05",
+  "brandAccentOnDark": "#FCFF4B",
+  "businessName": "Eden Prairie Gutter Installers",
+  "logo": "logo.svg",
+  "address": { "street": "8929 Aztec Dr", "city": "Eden Prairie", "state": "MN", "zip": "55347" },
+  "schemaType": "HomeAndConstructionBusiness",
+  "additionalType": "https://en.wikipedia.org/wiki/Rain_gutter",
+  "areaServed": [{ "name": "Eden Prairie", "state": "MN" }],
+  "owner": { "name": "Mike Carroll", "title": "Owner" },
+  "serviceAreaLine": "Eden Prairie, MN",
+  "barNotes": ["Local Eden Prairie Installers", "No subcontractors, ever"],
+  "facts": [
+    { "value": "10+ Years", "caption": "In the gutter business" },
+    { "value": "Free Estimates", "caption": "Fast, no-pressure quotes" },
+    { "value": "No Subs", "caption": "Our own crew, every job" },
+    { "value": "Family Owned", "caption": "Local gutter installation crew" }
+  ],
+  "services": [
+    { "name": "Gutter Installation", "slug": "gutter-installation", "image": "real-two-story-home.jpg", "alt": "New seamless gutter installed along a roofline", "linkLabel": "How installation works" },
+    { "name": "Gutter Cleaning", "slug": "gutter-cleaning", "image": "real-gutter-guard-closeup.jpg", "alt": "Gutter cleared of leaf and debris buildup", "linkLabel": "What cleaning covers" },
+    { "name": "Commercial Gutters", "slug": "commercial-gutters", "image": "real-harbor-gray-garage.jpeg", "alt": "Commercial low-slope roof drainage system", "linkLabel": "Commercial options" },
+    { "name": "Gutter Repair", "slug": "gutter-repair", "image": "real-porch-downspout.jpeg", "alt": "Sagging gutter section being resecured", "linkLabel": "Common repairs" },
+    { "name": "Gutter Downspouts", "slug": "gutter-downspouts", "image": "real-downspout-closeup.webp", "alt": "Downspout directing water away from a foundation", "linkLabel": "Downspout placement" },
+    { "name": "Copper Gutters", "slug": "copper-gutters", "image": "real-classic-home.jpg", "alt": "Copper gutter with natural weathered patina", "linkLabel": "Copper options" }
+  ],
+  "receipts": [
+    { "key": "Local Gutter Experts", "value": "We provide custom measurement, fabrication, and installation for Eden Prairie homes.", "linkLabel": "See our services", "linkTo": "/services/" },
+    { "key": "No subcontractors", "value": "Every job is run by our own crew, start to finish.", "linkLabel": "Meet the approach", "linkTo": "/about/" },
+    { "key": "Leaf Sentry, Bulldog, Leaf Blaster, XTREME", "value": "We install and stand behind name-brand gutter guard systems.", "linkLabel": "See guard options", "linkTo": "/gutter-installation/" },
+    { "key": "Free estimates", "value": "Fast estimates with no pressure to buy on the spot.", "linkLabel": "Request one", "linkTo": "/estimate/" }
+  ],
+  "reviews": [
+    { "quote": "Big Mike understood what we needed right away. His crew came out and installed over 60 feet of new gutter around our porch and came up with a superior drain spout design, better than what was originally planned for! The work was done quickly and efficiently by this experienced crew, and the price was reasonable as quoted. Would call again.", "name": "Max Tite" },
+    { "quote": "Three crew members came and did a fantastic job. We requested some detailed work, and every request was accepted. They found a way to satisfy us. They did an excellent job! I would definitely hire them again for any gutter work.", "name": "Kyoko French" },
+    { "quote": "Super easy to work with. The gutters look great and they had lots of good color options. They were very professional – did what they said when they said and the price was in line or lower than others we had quote. We are very happy we went with them.", "name": "Brian Kirkendall" },
+    { "quote": "Mike and his staff were very professional and responsive. He explained the product options and services and provided his recommendation for my situation. He got me on the schedule right away. A couple of the gutter kick outs were a bit short after installation and Mike was responsive and had them fixed within a few days. Easy to work with and the job was well done. Thanks Mike!", "name": "Rebecca B." },
+    { "quote": "My gutters were old. Several were tilted and had clearly been dripping water onto the concrete stoop and walkway for years before I moved in, based on the wear and damage. Mike's crew were efficient, thorough and careful, made good recommendations without upselling, and kept me updated on the work.", "name": "Maire K." }
+  ],
+  "areaGroups": [
+    {
+      "name": "Eden Prairie, MN",
+      "places": [
+        { "to": "/gutter-installation-in-bearpath-mn/", "anchor": "Bearpath" },
+        { "to": "/gutter-installation-in-boulder-pointe-mn/", "anchor": "Boulder Pointe" },
+        { "to": "/gutter-installation-in-bryant-lake-mn/", "anchor": "Bryant Lake area" },
+        { "to": "/gutter-installation-in-olympic-hills-mn/", "anchor": "Olympic Hills" },
+        { "to": "/gutter-installation-in-riley-lake-mn/", "anchor": "Riley Lake area" },
+        { "to": "/gutter-installation-in-settlers-ridge-mn/", "anchor": "Settlers Ridge" },
+        { "to": "/gutter-installation-in-woodland-mn/", "anchor": "Woodland" },
+        { "to": "/gutter-installation-in-central-eden-prairie-mn/", "anchor": "Central Eden Prairie / City Center" },
+        { "to": "/gutter-installation-in-northeast-eden-prairie-mn/", "anchor": "Northeast Eden Prairie" },
+        { "to": "/gutter-installation-in-pioneer-park-mn/", "anchor": "Pioneer Park area" },
+        { "to": "/gutter-installation-in-round-lake-park-mn/", "anchor": "Round Lake Park area" },
+        { "to": "/gutter-installation-in-southeast-eden-prairie-mn/", "anchor": "Southeast Eden Prairie" },
+        { "to": "/gutter-installation-in-west-eden-prairie-mn/", "anchor": "West Eden Prairie" },
+        { "to": "/gutter-installation-in-southwest-eden-prairie-mn/", "anchor": "Southwest Eden Prairie" },
+        { "to": "/commercial-gutters-in-city-west-parkway-mn/", "anchor": "City West Parkway" },
+        { "to": "/commercial-gutters-in-golden-triangle-mn/", "anchor": "Golden Triangle" }
+      ]
+    }
+  ],
+  "freeEstimates": true,
+  "estimateLabel": "Request a free estimate",
+  "estimateLabelShort": "Free Estimate",
+  "ctaChecks": ["Free, no-pressure estimates", "Experienced in-house crew", "No subcontractors, ever"],
+  "brands": [
+    { "name": "Leaf Sentry", "logo": "brand-leaf-sentry.png" },
+    { "name": "Bulldog Gutter Guard", "logo": "brand-bulldog.png" },
+    { "name": "Leaf Blaster", "logo": "brand-leaf-blaster.png" },
+    { "name": "XTREME Gutter Guards", "logo": "brand-xtreme.png" }
+  ],
+  "footerAbout": "Eden Prairie Gutter Installers serves homeowners and businesses across Eden Prairie, Minnesota with gutter installation, repair, cleaning, and commercial drainage work. Our own crew runs every job from start to finish.",
+  "footerLocations": [
+    { "to": "/gutter-installation-in-bearpath-mn/", "anchor": "Bearpath" },
+    { "to": "/gutter-installation-in-olympic-hills-mn/", "anchor": "Olympic Hills" },
+    { "to": "/gutter-installation-in-settlers-ridge-mn/", "anchor": "Settlers Ridge" },
+    { "to": "/commercial-gutters-in-golden-triangle-mn/", "anchor": "Golden Triangle" },
+    { "to": "/service-areas/", "anchor": "See full Eden Prairie service area" }
+  ],
+  "externalLinks": {
+    "mainSite": { "url": "https://bigmikesgutters.net/", "anchor": "Big Mike's Gutters", "placements": ["about"] },
+    "gbp": { "url": "https://share.google/KOBNd3OKm882RWpbh", "anchor": "Big Mike's Gutters on Google", "placements": ["contact"] }
+  },
+  "allowedExternalDomains": ["bigmikesgutters.net", "share.google"],
+  "formConsent": "By sending this form you agree to be contacted about your request."
+}

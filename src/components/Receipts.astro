@@ -1,0 +1,12 @@
+---
+import { site } from '../lib/site.js'; import Heading from './Heading.astro';
+const { head = {} } = Astro.props; const rows = site.receipts || [];
+---
+{rows.length >= 3 && (
+<section class="dark on-dark"><div class="wrap">
+  <Heading kicker={head.kicker} title={head.title} hl={head.hl} lede={head.lede} />
+  <div class="receipts">
+    {rows.map((r) => <div class="r"><span class="k">{r.key}</span><span class="v">{r.value}</span>{r.linkTo ? <a href={r.linkTo} rel={r.linkTo.startsWith('http') ? 'noopener' : undefined}>{r.linkLabel}</a> : <span></span>}</div>)}
+  </div>
+</div></section>
+)}

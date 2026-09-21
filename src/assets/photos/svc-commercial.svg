@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Commercial roof drainage illustration</title>
+  <desc id="desc">A simple trade illustration for Eden Prairie Gutter Installers.</desc>
+  <rect width="1600" height="900" fill="#DDE8F5"/>
+      <path d="M165 700V300h1270v400" fill="#E7E3D7" stroke="#14284B" stroke-width="24"/>
+      <path d="M125 300h1350l-82-130H205Z" fill="#1D3763" stroke="#14284B" stroke-width="22"/>
+      <path d="M165 700h1270" stroke="#FDBA4D" stroke-width="34"/>
+      <path d="M1160 170v430l100 100" fill="none" stroke="#C2410C" stroke-width="32" stroke-linecap="round"/>
+      <path d="M1105 600h110l82 84h-274Z" fill="#C2410C" stroke="#14284B" stroke-width="16"/>
+      <rect x="280" y="415" width="210" height="180" fill="#B9C9D4" stroke="#14284B" stroke-width="18"/>
+      <rect x="560" y="415" width="210" height="180" fill="#B9C9D4" stroke="#14284B" stroke-width="18"/>
+      <rect x="840" y="415" width="210" height="180" fill="#B9C9D4" stroke="#14284B" stroke-width="18"/>
+      <path d="M0 700h1600v200H0Z" fill="#EEF2F8"/>
+</svg>

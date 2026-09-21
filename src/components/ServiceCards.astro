@@ -1,0 +1,21 @@
+---
+import { site, byType, href, hasPage } from '../lib/site.js';
+import Heading from './Heading.astro'; import Photo from './Photo.astro';
+const { head = {}, tint = true, button = true } = Astro.props;
+const pagesBySlug = Object.fromEntries(byType('service').map((p) => [p.slug, p]));
+const items = (site.services || []).filter((s) => s.slug && pagesBySlug[s.slug]);
+---
+{items.length > 0 && (
+<section id="services" class:list={[{ tint }]}><div class="wrap">
+  <div class="head-row">
+    <div><Heading kicker={head.kicker} title={head.title} hl={head.hl} lede={head.lede} /></div>
+    {button && hasPage('services') && <a class="btn btn-line" href="/services/">All services</a>}
+  </div>
+  <div class="svc">
+    {items.map((s) => (
+      <a href={href(s.slug)}><Photo file={s.image} alt={s.alt} sizes="(max-width:900px) 100vw, 50vw" />
+        <div class="t"><h3>{s.name}</h3><span class="more">{s.linkLabel || 'See how it works'}</span></div></a>
+    ))}
+  </div>
+</div></section>
+)}

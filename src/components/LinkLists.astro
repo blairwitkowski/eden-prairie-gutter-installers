@@ -1,0 +1,13 @@
+---
+import { hasPage } from '../lib/site.js';
+const { page } = Astro.props;
+const svc = page.relatedServices || []; const loc = page.nearbyLocations || [];
+const city = page.city;
+---
+{(svc.length > 0 || loc.length > 0) && (
+<section class="tint"><div class="wrap linklists">
+  {svc.length > 0 && <div class="linklist"><h2>{city ? `Our services in ${city}` : 'Our services'}</h2><ul>{svc.map((l) => <li><a href={l.to}>{l.anchor}</a></li>)}</ul></div>}
+  {loc.length > 0 && <div class="linklist"><h2>{page.pageType === 'location' ? 'Nearby areas we serve' : 'Proud to serve'}</h2><ul>{loc.map((l) => <li><a href={l.to}>{l.anchor}</a></li>)}</ul>
+    {hasPage('service-areas') && <a class="all" href="/service-areas/">View service area</a>}</div>}
+</div></section>
+)}

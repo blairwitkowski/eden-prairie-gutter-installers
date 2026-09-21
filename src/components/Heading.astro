@@ -1,0 +1,8 @@
+---
+import { accent } from '../lib/site.js';
+const { kicker, title, hl, lede, tag = 'h2' } = Astro.props;
+const Tag = tag;
+---
+{kicker && <div class="kicker">{kicker}</div>}
+<Tag set:html={accent(title, hl)} />
+{lede && <p class="lede">{lede}</p>}

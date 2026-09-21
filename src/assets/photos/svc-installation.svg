@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Seamless gutter installation illustration</title>
+  <desc id="desc">A simple trade illustration for Eden Prairie Gutter Installers.</desc>
+  
+    <path d="M0 730h1600v170H0z" fill="#EEF2F8"/>
+    <path d="M270 550L810 265L1350 550v390H270Z" fill="#F8F4EB" stroke="#14284B" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M228 565L810 233L1392 565" fill="none" stroke="#14284B" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M246 583H1374" stroke="#FDBA4D" stroke-width="24" stroke-linecap="round"/>
+    <rect x="420" y="675" width="168" height="246" rx="8" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/>
+    <path d="M504 675v246M420 797h168" stroke="#14284B" stroke-width="10"/>
+    <rect x="1000" y="667" width="182" height="130" rx="8" fill="#B9C9D4" stroke="#14284B" stroke-width="14"/>
+    <path d="M1091 667v130M1000 732h182" stroke="#14284B" stroke-width="10"/>
+    <path d="M1310 600v332" stroke="#C2410C" stroke-width="34" stroke-linecap="round"/>
+    <path d="M1310 931c0 65 42 88 94 88h62" fill="none" stroke="#C2410C" stroke-width="34" stroke-linecap="round"/>
+      <path d="M285 565h1040" stroke="#FDBA4D" stroke-width="30" stroke-linecap="round"/>
+      <path d="M360 565v48m180-48v48m180-48v48m180-48v48m180-48v48m180-48v48" stroke="#14284B" stroke-width="12"/>
+</svg>

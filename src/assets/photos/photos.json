@@ -1,0 +1,323 @@
+{
+  "images": [
+    {
+      "file": "logo.svg",
+      "alt": "Eden Prairie Gutter Installers logo",
+      "real": true
+    },
+    {
+      "file": "real-gutter-guard-closeup.jpg",
+      "alt": "Gutter guard installed along a shingle roof",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-porch-exterior.jpg",
+      "alt": "Home exterior with porch gutters and downspouts",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-downspout-closeup.webp",
+      "alt": "Black downspout installed at a roof corner",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-mature-tree-home.jpg",
+      "alt": "Two-story home beneath a mature tree canopy",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-porch-downspout.jpeg",
+      "alt": "Dark downspout installed beside a covered porch",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-harbor-gray-garage.jpeg",
+      "alt": "Harbor gray seamless gutters installed over a garage",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-traditional-home.jpg",
+      "alt": "Traditional home with a steep roofline and gutters",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-classic-home.jpg",
+      "alt": "Classic two-story home with mature landscaping",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-two-story-home.jpg",
+      "alt": "Two-story home with seamless gutters",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-green-gutters-side.jpg",
+      "alt": "Hartford green gutters on the side of a home",
+      "real": true,
+      "source": "user-supplied"
+    },
+    {
+      "file": "real-green-gutters-front.jpg",
+      "alt": "Hartford green six-inch gutters viewed from the front",
+      "real": true,
+      "source": "user-supplied"
+    }
+  ],
+  "remote": [
+    {
+      "file": "hero-eden-prairie.jpg",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2025/04/Gutter-Company-Eden-Prairie-MN-Big-Mikes-Gutters.jpg",
+      "alt": "Gutter installation in Eden Prairie, MN",
+      "real": true
+    },
+    {
+      "file": "about-crew.jpg",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2025/04/o.jpg",
+      "alt": "Gutter installation crew at work",
+      "real": true
+    },
+    {
+      "file": "about-clients.jpg",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2025/04/2025-02-28.jpg",
+      "alt": "Finished gutter installation project",
+      "real": true
+    },
+    {
+      "file": "repair-closeup.jpg",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2024/10/web-pic-gutter-repaits-gutter-damage-900x.jpg",
+      "alt": "Close-up of damaged gutter section before repair",
+      "real": true
+    },
+    {
+      "file": "review-william-power.webp",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2026/09/gutter-installation-William-Powell.webp",
+      "alt": "Finished seamless gutter installation",
+      "real": true
+    },
+    {
+      "file": "review-max-tite.webp",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2026/09/gutter-installation-max-tite-1024x771.webp",
+      "alt": "New gutter and downspout installation around a porch",
+      "real": true
+    },
+    {
+      "file": "review-kyoko-french.svg",
+      "alt": "Detailed gutter installation project",
+      "real": false,
+      "illustrationBrief": "simple gutter project detail illustration, no people"
+    },
+    {
+      "file": "review-brian-kirkendall.webp",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2026/09/gutter-installation-brian-kirkendall-768x1024.webp",
+      "alt": "Gutter installation with color-matched trim",
+      "real": true
+    },
+    {
+      "file": "review-thomas-calvin.webp",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2026/09/gutter-installation-thomas-calvin-1024x728.webp",
+      "alt": "Completed residential gutter project",
+      "real": true
+    },
+    {
+      "file": "brand-leaf-sentry.png",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2025/04/Leaf-Sentry-Logo.png",
+      "alt": "Leaf Sentry gutter guard logo",
+      "real": true
+    },
+    {
+      "file": "brand-bulldog.png",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2025/04/bulldog-logo@2x.png",
+      "alt": "Bulldog Gutter Guard logo",
+      "real": true
+    },
+    {
+      "file": "brand-leaf-blaster.png",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2025/04/Leafblaster-Logo-Black-Green.webp",
+      "alt": "Leaf Blaster gutter guard logo",
+      "real": true
+    },
+    {
+      "file": "brand-xtreme.png",
+      "url": "https://bigmikesgutters.net/wp-content/uploads/2025/04/Xtreme-Gutter-Guard-Logo.png",
+      "alt": "XTREME Gutter Guards logo",
+      "real": true
+    },
+    {
+      "file": "hero-fallback.svg",
+      "url": "",
+      "alt": "Seamless gutter installed on a Minnesota two-story home",
+      "real": false,
+      "stockBrief": "wide exterior shot of a Minnesota two-story home in early fall with new seamless aluminum gutters, no people visible, soft overcast light"
+    },
+    {
+      "file": "svc-installation.svg",
+      "url": "",
+      "alt": "New seamless gutter installed along a roofline",
+      "real": false,
+      "stockBrief": "close-up of a seamless aluminum gutter fresh off the fabrication machine being fastened to a fascia board, no people"
+    },
+    {
+      "file": "svc-cleaning.svg",
+      "url": "",
+      "alt": "Gutter cleared of leaf and debris buildup",
+      "real": false,
+      "stockBrief": "close-up of a residential gutter section, one half clogged with maple and oak leaves, the other half cleared out, no people"
+    },
+    {
+      "file": "svc-commercial.svg",
+      "url": "",
+      "alt": "Commercial low-slope roof drainage system",
+      "real": false,
+      "stockBrief": "flat commercial roof with a scupper drain and parapet wall, office building setting, overcast sky, no people"
+    },
+    {
+      "file": "svc-repair.svg",
+      "url": "",
+      "alt": "Sagging gutter section being resecured",
+      "real": false,
+      "stockBrief": "close-up of a sagging gutter section pulling away from a fascia board with a visible hanger bracket, no people"
+    },
+    {
+      "file": "svc-downspouts.svg",
+      "url": "",
+      "alt": "Downspout directing water away from a foundation",
+      "real": false,
+      "stockBrief": "downspout with an extension directing water away from a home's foundation onto a splash block, landscaped yard, no people"
+    },
+    {
+      "file": "svc-copper.svg",
+      "url": "",
+      "alt": "Copper gutter with natural weathered patina",
+      "real": false,
+      "stockBrief": "close-up of a copper gutter system on a traditional home, showing natural weathered patina against wood trim, no people"
+    },
+    {
+      "file": "reasons-crew.svg",
+      "url": "",
+      "alt": "Gutter crew working on a residential roofline",
+      "real": false,
+      "stockBrief": "wide shot of a two-person gutter crew on a ladder working a residential roofline in fall, backs to camera, no faces"
+    },
+    {
+      "file": "loc-bearpath.svg",
+      "url": "",
+      "alt": "Luxury home roofline near a golf course",
+      "real": false,
+      "stockBrief": "large custom two-story home with a complex multi-level roofline, golf-course-adjacent, fall foliage, no people"
+    },
+    {
+      "file": "loc-boulder-pointe.svg",
+      "url": "",
+      "alt": "Newer executive home on a sloped bluff lot",
+      "real": false,
+      "stockBrief": "newer executive-style two-story home on a sloped wooded lot, walkout basement visible, no people"
+    },
+    {
+      "file": "loc-bryant-lake.svg",
+      "url": "",
+      "alt": "Lakefront home with mature tree canopy",
+      "real": false,
+      "stockBrief": "home on a wooded lakefront lot with heavy mature tree canopy overhanging the roofline, no people"
+    },
+    {
+      "file": "loc-olympic-hills.svg",
+      "url": "",
+      "alt": "Home on a rolling-hills golf course lot",
+      "real": false,
+      "stockBrief": "two-story home on a rolling-hill lot near a golf course fairway, autumn colors, no people"
+    },
+    {
+      "file": "loc-riley-lake.svg",
+      "url": "",
+      "alt": "Walkout basement home on a sloped lake lot",
+      "real": false,
+      "stockBrief": "home with a walkout basement level on a sloped lake lot, patio door visible at the lower level, no people"
+    },
+    {
+      "file": "loc-settlers-ridge.svg",
+      "url": "",
+      "alt": "New custom estate on a bluff lot",
+      "real": false,
+      "stockBrief": "large new-construction custom home on a bluff-line lot with an oversized complex roofline, no people"
+    },
+    {
+      "file": "loc-woodland.svg",
+      "url": "",
+      "alt": "Modern subdivision home with community amenities nearby",
+      "real": false,
+      "stockBrief": "modern two-story subdivision home built within the last decade, clean lines, small front porch, no people"
+    },
+    {
+      "file": "loc-central-ep.svg",
+      "url": "",
+      "alt": "Townhome cluster near a city park",
+      "real": false,
+      "stockBrief": "row of townhomes near a paved park path, mixed single-family and multi-family character, no people"
+    },
+    {
+      "file": "loc-northeast-ep.svg",
+      "url": "",
+      "alt": "Older split-level home with mature trees",
+      "real": false,
+      "stockBrief": "1960s-70s split-entry rambler-style home with mature oak trees and original-style gutters, no people"
+    },
+    {
+      "file": "loc-pioneer-park.svg",
+      "url": "",
+      "alt": "Home along a bluff-line country road",
+      "real": false,
+      "stockBrief": "single-family home set back from a rural-feeling bluff-line road, wooded lot, no people"
+    },
+    {
+      "file": "loc-round-lake-park.svg",
+      "url": "",
+      "alt": "Established home near a city lake park",
+      "real": false,
+      "stockBrief": "established single-family home near a small city lake with a public park in the background, no people"
+    },
+    {
+      "file": "loc-southeast-ep.svg",
+      "url": "",
+      "alt": "Home near a flatland industrial corridor",
+      "real": false,
+      "stockBrief": "residential home on flat river-valley terrain with light industrial buildings visible in the distance, no people"
+    },
+    {
+      "file": "loc-west-ep.svg",
+      "url": "",
+      "alt": "Wooded ravine-lot custom home",
+      "real": false,
+      "stockBrief": "custom home tucked into a wooded hillside with a ravine, winding driveway, no people"
+    },
+    {
+      "file": "loc-southwest-ep.svg",
+      "url": "",
+      "alt": "New construction home on river-bluff terrain",
+      "real": false,
+      "stockBrief": "new large custom home on river-bluff terrain with a complex roofline and multiple gables, no people"
+    },
+    {
+      "file": "loc-city-west-parkway.svg",
+      "url": "",
+      "alt": "1980s masonry office building with a flat roof",
+      "real": false,
+      "stockBrief": "low-rise 1980s masonry office building with a flat roof and visible scupper drain at the parapet, no people, no signage"
+    },
+    {
+      "file": "loc-golden-triangle.svg",
+      "url": "",
+      "alt": "Flex/industrial building with a low-slope roof",
+      "real": false,
+      "stockBrief": "1980s flex-industrial building with a low-slope roof, loading dock visible, business park setting, no people, no signage"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+---
+import { site } from '../lib/site.js'; import Heading from './Heading.astro';
+const { head = {}, limit = 3, tint = true } = Astro.props;
+const quotes = (site.reviews || []).slice(0, limit); const profiles = site.ratingProfiles || [];
+---
+{(quotes.length > 0 || profiles.length > 0) && (
+<section id="reviews" class:list={[{ tint }]}><div class="wrap">
+  <Heading kicker={head.kicker} title={head.title || 'What customers say'} hl={head.hl} />
+  {profiles.length > 0 && <div class="rate">{profiles.map((p) => (
+    <a href={p.url} target="_blank" rel="noopener"><span class="n">{p.rating}</span><span><span class="stars" aria-hidden="true">★★★★★</span><small>{p.platform}, {p.count} reviews</small></span></a>
+  ))}</div>}
+  {quotes.length > 0 && <div class="quotes" style={profiles.length ? '' : 'margin-top:2rem'}>{quotes.map((q) => (
+    <blockquote><p>{q.quote}</p><cite>{q.name} {q.source && <span>on {q.source}</span>}</cite></blockquote>
+  ))}</div>}
+</div></section>
+)}

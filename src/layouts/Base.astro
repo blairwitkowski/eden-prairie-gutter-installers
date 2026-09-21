@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+import { site, href } from '../lib/site.js';
+import ReviewBar from '../components/ReviewBar.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Schema from '../components/Schema.astro';
+const { page } = Astro.props;
+const canonical = site.siteUrl.replace(/\/$/, '') + href(page.slug);
+const noindex = page.index === false;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{page.seoTitle}</title>
+  {page.metaDescription && <meta name="description" content={page.metaDescription} />}
+  <link rel="canonical" href={canonical} />
+  <meta name="robots" content={noindex ? 'noindex,follow' : 'all'} />
+  <meta name="theme-color" content="#18232B" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={page.seoTitle} />
+  {page.metaDescription && <meta property="og:description" content={page.metaDescription} />}
+  <meta property="og:url" content={canonical} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <Schema page={page} />
+  {site.tracking?.ga4 && <script async src={`https://www.googletagmanager.com/gtag/js?id=${site.tracking.ga4}`}></script>}
+  {site.tracking?.ga4 && <script is:inline define:vars={{ id: site.tracking.ga4 }}>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config',id);</script>}
+  {site.tracking?.gsc && <meta name="google-site-verification" content={site.tracking.gsc} />}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <ReviewBar />
+  <Header />
+  <main id="main"><slot /></main>
+  <Footer />
+</body>
+</html>

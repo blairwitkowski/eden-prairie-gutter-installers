@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Copper gutter illustration</title>
+  <desc id="desc">A simple trade illustration for Eden Prairie Gutter Installers.</desc>
+  <rect width="1600" height="900" fill="#EEF2F8"/>
+      <path d="M180 650L790 180l630 470" fill="none" stroke="#14284B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M168 650h1280" stroke="#B56B42" stroke-width="40" stroke-linecap="round"/>
+      <path d="M168 650h1280" stroke="#FDBA4D" stroke-width="12" stroke-linecap="round"/>
+      <path d="M420 650v160m410-160v160m410-160v160" stroke="#14284B" stroke-width="20"/>
+      <circle cx="475" cy="620" r="38" fill="#B56B42"/><circle cx="840" cy="620" r="48" fill="#926044"/><circle cx="1195" cy="620" r="32" fill="#C08757"/>
+      <path d="M0 810h1600v90H0Z" fill="#DDE8F5"/>
+</svg>

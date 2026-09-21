@@ -1,0 +1,16 @@
+---
+import { site } from '../lib/site.js';
+const profiles = site.ratingProfiles || [];
+const notes = site.barNotes || [];
+---
+{(profiles.length > 0 || notes.length > 0 || site.serviceAreaLine) && (
+  <div class="revbar"><div class="wrap">
+    <div class="items">
+      {profiles.map((p) => (
+        <a href={p.url} rel="noopener" target="_blank"><b>{p.platform}</b> <span class="stars" aria-hidden="true">★★★★★</span> {p.rating} ({p.count} reviews)</a>
+      ))}
+      {notes.map((n) => <span>{n}</span>)}
+    </div>
+    {site.serviceAreaLine && <span>{site.serviceAreaLine}</span>}
+  </div></div>
+)}
