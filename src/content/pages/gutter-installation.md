@@ -29,6 +29,7 @@ faqs:
   - { q: "How long does a gutter installation take?", a: "Most homes are done in a single day. Larger, more complex rooflines with multiple valleys can take longer." }
   - { q: "What material should I choose?", a: "Aluminum covers most homes well and comes in painted colors to match trim. Galvalume steel handles heavier snow and ice loads. Copper costs more but weathers to a natural look and lasts longest." }
   - { q: "Do you remove the old gutters?", a: "Yes, tear-off and disposal of the old system is part of a standard installation." }
+  - { q: "Do hip roofs need different gutter work than a standard gable roof?", a: "Yes. A hip roof has a mitered corner at every hip line instead of concentrated valleys, so the skill is in cutting a tight, flat miter at each corner rather than sizing one big section. We do this often on Eden Prairie's older ramblers." }
 ---
 ## What's Included
 
@@ -47,6 +48,14 @@ That distinction matters more here than in a lot of places. Fewer seams means fe
 We start with a free, in-person estimate. If the roofline has valley sections, like a lot of the newer bluff-line homes around [Bearpath](/gutter-installation-in-bearpath-mn/) and [Settlers Ridge](/gutter-installation-in-settlers-ridge-mn/), we size those sections up rather than running the same width the whole way around. That's a judgment call, not a guess. A valley where two or three roof planes meet can carry several times the volume of a straight gutter run during a heavy storm, and undersizing it just moves the overflow problem from your gutters to your foundation.
 
 On installation day, the crew removes the old system, checks the fascia underneath for rot before hanging anything new, and fabricates the gutter on site using a portable machine that forms the material to length. Downspouts get placed where the grading actually carries water away, not just at the corners because that's where they've always gone.
+
+## Hip roofs and Eden Prairie's older ramblers
+
+A hip roof doesn't have gable ends. All four sides slope down to the walls, which means instead of one or two valleys concentrating water, you get a mitered corner at every hip line, usually four or more on a typical rambler. Each of those corners has to be cut and fit by hand rather than run straight off the fabrication machine, and a miter that's cut a degree or two off gaps at the seam or puckers instead of lying flat.
+
+That's a different skill than sizing a valley, and it's one we've built up specifically because so much of Eden Prairie's older housing stock, especially the 1960s and 70s split-entry and rambler homes concentrated toward [Northeast Eden Prairie](/gutter-installation-in-northeast-eden-prairie-mn/), was built with hip roofs. A loose or poorly cut hip miter is one of the more common failure points we find on a rambler that's never had its gutters properly replaced, not because the material failed but because the original corner work was rushed.
+
+We cut every hip miter on site to match the actual roof pitch in front of us, not a standard angle off a chart, and we check each corner for a tight, flat seam before moving to the next one.
 
 ## What Affects The Cost
 
