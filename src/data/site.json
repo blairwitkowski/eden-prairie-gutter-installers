@@ -6,7 +6,7 @@
   "brandAccentOnDark": "#FCFF4B",
   "businessName": "Eden Prairie Gutter Installers",
   "logo": "logo.png",
-  "address": { "street": "8929 Aztec Dr", "city": "Eden Prairie", "state": "MN", "zip": "55347" },
+  "address": { "street": "8929 Aztec Drive", "city": "Eden Prairie", "state": "MN", "zip": "55347" },
   "schemaType": "HomeAndConstructionBusiness",
   "additionalType": "https://en.wikipedia.org/wiki/Rain_gutter",
   "areaServed": [{ "name": "Eden Prairie", "state": "MN" }],
