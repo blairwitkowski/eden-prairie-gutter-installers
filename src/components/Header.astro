@@ -1,5 +1,5 @@
 ---
-import { site, byType, hasPage, href, estimateHref, telHref, telClass, estimateShort } from '../lib/site.js';
+import { site, byType, hasPage, href, estimateHref } from '../lib/site.js';
 import Photo from './Photo.astro';
 const services = byType('service');
 const nav = [
@@ -24,8 +24,7 @@ const nav = [
     {nav.map((n) => <a href={n.to}>{n.name}</a>)}
   </nav>
   <div class="head-cta">
-    <a class="btn btn-line" href={site.bookingUrl || estimateHref}>{site.bookingUrl ? 'Book online' : estimateShort}</a>
-    <a class:list={['btn btn-primary', telClass]} href={telHref}>{site.phoneDisplay}</a>
+    <a class="btn btn-line" href={site.bookingUrl || estimateHref}>{site.bookingUrl ? 'Book online' : 'Get A Free Estimate'}</a>
     <button class="menu-btn" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
   </div>
 </div>
