@@ -1,5 +1,5 @@
 ---
-import { site, byType, hasPage, href, telHref, telClass, estimateHref, estimateLabel, estimateShort } from '../lib/site.js';
+import { site, byType, hasPage, href, telHref, telClass, estimateHref, estimateShort } from '../lib/site.js';
 import Photo from './Photo.astro';
 const services = byType('service');
 const footerServices = [
@@ -36,7 +36,6 @@ const { hideEstimate = false } = Astro.props;
       <ul>
       {site.phoneDisplay && <li><a class={telClass} href={telHref}>{site.phoneDisplay}</a></li>}
       {site.email && <li><a href={`mailto:${site.email}`}>{site.email}</a></li>}
-      {!hideEstimate && <li><a href={estimateHref}>{estimateLabel}</a></li>}
       {ext.mainSite?.url && ext.mainSite.placements?.includes('footer') && <li><a href={ext.mainSite.url}>{ext.mainSite.anchor}</a></li>}
       {ext.gbp?.url && ext.gbp.placements?.includes('footer') && <li><a href={ext.gbp.url} rel="noopener">{ext.gbp.anchor}</a></li>}
       </ul>
