@@ -12,7 +12,7 @@ export const href = (slug) => (slug ? `/${slug}/` : '/');
 export const byType = (t) => pages.filter((p) => p.pageType === t);
 export const findPage = (slug) => pages.find((p) => p.slug === slug);
 export const hasPage = (slug) => pages.some((p) => p.slug === slug);
-export const estimateHref = hasPage('estimate') ? '/estimate/' : hasPage('contact') ? '/contact/' : '/#estimate';
+export const estimateHref = hasPage('contact') ? '/contact/' : '/#contact';
 export const telHref = `tel:${site.phoneE164}`;
 export const telClass = site.callTrackingClass || '';
 

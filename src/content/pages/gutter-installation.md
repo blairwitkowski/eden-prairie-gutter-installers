@@ -66,4 +66,4 @@ Roofline length and how many valleys or corners it has, gutter size (5" versus 6
 
 Our experienced in-house crew has fabricated gutters across the Twin Cities for over a decade. The same team runs every Eden Prairie job, and we don't hand your installation to a subcontractor.
 
-[Request a free estimate](/estimate/) and we'll walk your roof before we quote anything.
+[Request a free estimate](/contact/) and we'll walk your roof before we quote anything.

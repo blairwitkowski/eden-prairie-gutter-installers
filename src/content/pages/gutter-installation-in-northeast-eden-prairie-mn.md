@@ -53,4 +53,4 @@ A mix of full [gutter installation](/gutter-installation/) on homes with origina
 
 This part of the city borders the older housing stock that also shows up near Bryant Lake, and mature tree canopy affects both cleaning frequency and how often gutter guards come up in conversation during an estimate.
 
-[Request a free estimate](/estimate/) and we'll give you a straight read on whether your original system needs replacing, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll give you a straight read on whether your original system needs replacing, or see our full [gutter services](/) for Eden Prairie.

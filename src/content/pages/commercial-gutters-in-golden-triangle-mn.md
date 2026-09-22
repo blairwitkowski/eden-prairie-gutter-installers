@@ -53,4 +53,4 @@ Scupper and internal-drain clearing, ponding inspections, and periodic [commerci
 
 A 1986 flex building and a newer light-rail-adjacent development don't drain the same way, even a few hundred feet apart in the same business park, which is why we inspect each property's actual drainage layout rather than applying one standard to the whole district.
 
-[Request a free estimate](/estimate/) for your Golden Triangle property, or see our full [commercial and residential gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) for your Golden Triangle property, or see our full [commercial and residential gutter services](/) for Eden Prairie.

@@ -57,4 +57,4 @@ Boulder Pointe homes run roughly $650K to $1.7M, part of the late 1990s through 
 
 This is one of those situations that does not look urgent until a wet season makes it obvious. A gutter that handled three dry summers without complaint can still be undersized for the one storm that hits hardest, and on a bluff lot, that single storm is often what finally shows the problem.
 
-[Request a free estimate](/estimate/) and we'll look at how your specific lot drains before recommending anything, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll look at how your specific lot drains before recommending anything, or see our full [gutter services](/) for Eden Prairie.

@@ -48,4 +48,4 @@ We come out, clear the system by hand rather than power-blasting it (which can p
 
 Roofline length, how many stories, how much debris has built up, and whether gutter guards are already installed (which changes the cleaning method) all factor in. We give a real number after seeing the roof, not before.
 
-[Request a free estimate](/estimate/) for cleaning or a full system check.
+[Request a free estimate](/contact/) for cleaning or a full system check.

@@ -60,4 +60,4 @@ Construction here runs from the late 1990s through the 2010s, the same custom-bu
 
 Debris plays its own role. Maple seed and Oak leaf material from the mature tree cover near Purgatory Creek and the golf course tends to accumulate in valley sections and at downspout openings. Once it compacts, it restricts flow the same way an undersized gutter does, so a proper inspection here checks the valley points specifically, not just the front edge of the gutter.
 
-[Request a free estimate](/estimate/) and we'll walk the roofline with you before recommending anything, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll walk the roofline with you before recommending anything, or see our full [gutter services](/) for Eden Prairie.

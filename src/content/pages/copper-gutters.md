@@ -47,4 +47,4 @@ We measure the same way we would for any installation, then fabricate the copper
 
 Material cost is the biggest factor and runs well above aluminum or galvalume. Roofline length, number of downspouts, and the complexity of soldered joints also factor in.
 
-[Request a free estimate](/estimate/) to see what a copper system would run for your home.
+[Request a free estimate](/contact/) to see what a copper system would run for your home.

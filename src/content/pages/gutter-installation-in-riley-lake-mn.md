@@ -55,4 +55,4 @@ When a valley section overflows repeatedly and nothing changes, water keeps find
 
 Bellerieve-area listings run into the multi-million range, reflecting large, complex roof footprints with the same valley-heavy design common throughout this part of the city. This is one of those situations where a beautiful roofline and a real drainage risk come from the same design choices.
 
-[Request a free estimate](/estimate/) if you're seeing water collect near a walkout level after storms, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) if you're seeing water collect near a walkout level after storms, or see our full [gutter services](/) for Eden Prairie.

@@ -60,4 +60,4 @@ Which guard system you choose, total roofline length, how many valley sections n
 
 We carry name-brand systems and tell you honestly which one fits your home, not just the one with the best margin. If a mid-range guard genuinely handles your tree cover, we'll say so instead of upselling the top-tier option you don't need.
 
-[Request a free estimate](/estimate/) and we'll look at your tree cover and roofline before recommending a system.
+[Request a free estimate](/contact/) and we'll look at your tree cover and roofline before recommending a system.

@@ -54,4 +54,4 @@ A mix of [installation](/gutter-installation/), [repair](/gutter-repair/), and [
 
 Some of the subdivisions off Pioneer Trail sit closer to the city's historic character, near Green Acres and other landmarks tied to Eden Prairie's growth, while others reflect newer bluff-line construction further south. That range is why a standard, one-size approach doesn't hold up well here.
 
-[Request a free estimate](/estimate/) and we'll take a look at your specific property, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll take a look at your specific property, or see our full [gutter services](/) for Eden Prairie.

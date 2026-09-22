@@ -54,4 +54,4 @@ We handle [gutter installation](/gutter-installation/) sized for each home's roo
 
 The rolling-hills setting brings a reasonable amount of tree cover, not as heavy as the wooded lots near Bryant Lake, but more than a flat, newly landscaped subdivision sees. We factor that into cleaning schedules here rather than applying a citywide default.
 
-[Request a free estimate](/estimate/) and we'll look at how your specific lot drains before recommending anything, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll look at how your specific lot drains before recommending anything, or see our full [gutter services](/) for Eden Prairie.

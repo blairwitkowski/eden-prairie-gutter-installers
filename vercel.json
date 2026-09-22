@@ -1,4 +1,11 @@
 {
   "outputDirectory": "dist/public",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/estimate/",
+      "destination": "/contact/",
+      "permanent": true
+    }
+  ]
 }

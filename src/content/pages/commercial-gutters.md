@@ -47,4 +47,4 @@ We inspect the drainage points, clear whatever's blocking flow, and check for an
 
 Roof size, number of drainage points, access (some flat roofs need a lift, others have roof access from inside the building), and whether this is a one-time service or an ongoing maintenance schedule.
 
-[Request a free estimate](/estimate/) for your property.
+[Request a free estimate](/contact/) for your property.

@@ -53,4 +53,4 @@ This is one of those problems that does not look urgent the first time it happen
 
 Access can be a factor too on some of the more secluded Dell Road properties, longer driveways and wooded approach roads, which we plan for when scheduling a crew and equipment ahead of an estimate.
 
-[Request a free estimate](/estimate/) and we'll walk your specific lot before recommending anything, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll walk your specific lot before recommending anything, or see our full [gutter services](/) for Eden Prairie.

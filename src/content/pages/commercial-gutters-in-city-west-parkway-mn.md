@@ -53,4 +53,4 @@ Scupper and internal-drain clearing and inspection, along with periodic [commerc
 
 A scheduled inspection ahead of the fall leaf drop and again before spring runoff catches debris buildup before it becomes ponding, which is a cheaper problem to solve on a clear roof than on one already holding standing water.
 
-[Request a free estimate](/estimate/) for your property along City West Parkway, or see our full [commercial and residential gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) for your property along City West Parkway, or see our full [commercial and residential gutter services](/) for Eden Prairie.

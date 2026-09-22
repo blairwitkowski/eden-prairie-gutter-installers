@@ -53,4 +53,4 @@ A mix of residential [installation](/gutter-installation/) and [repair](/gutter-
 
 This is one of the few parts of Eden Prairie where a single gutter crew genuinely needs both a residential and a commercial approach on the same street, given how closely homes and business parcels sit together here.
 
-[Request a free estimate](/estimate/) whether your property is residential or commercial, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) whether your property is residential or commercial, or see our full [gutter services](/) for Eden Prairie.

@@ -54,4 +54,4 @@ A genuine mix: [installation](/gutter-installation/) and [repair](/gutter-repair
 
 Housing near the city center runs a genuine range, from single-family homes valued around $350K to $650K to higher-density townhome and condo buildings. Being centrally located also means we're able to respond quickly here, which helps when a repair call comes in during or right after a storm.
 
-Homeowners and property managers can both [request a free estimate](/estimate/) or head back to our [Eden Prairie gutter services](/) to see everything we handle.
+Homeowners and property managers can both [request a free estimate](/contact/) or head back to our [Eden Prairie gutter services](/) to see everything we handle.

@@ -50,4 +50,4 @@ We inspect the failed section first, not the whole roofline by default. If a han
 
 How many sections need work, whether the fascia needs repair underneath, and whether the repair is isolated or a sign the whole system is due for [replacement](/gutter-installation/).
 
-[Request a free estimate](/estimate/) and we'll tell you honestly whether it's a repair or a replacement.
+[Request a free estimate](/contact/) and we'll tell you honestly whether it's a repair or a replacement.

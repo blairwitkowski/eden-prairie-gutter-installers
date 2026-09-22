@@ -54,4 +54,4 @@ A single loose hanger is a five-minute fix. Left through another few winters, th
 
 Construction here is largely 2014 and later, with standard asphalt shingle roofs and aluminum gutter systems typical of that build era. If the system is sound, a visit here is often just a cleaning and inspection. If hangers have started to pull loose, it's a straightforward repair rather than anything more involved.
 
-[Request a free estimate](/estimate/) and we'll check your system's condition before recommending anything, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll check your system's condition before recommending anything, or see our full [gutter services](/) for Eden Prairie.

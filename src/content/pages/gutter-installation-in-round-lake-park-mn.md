@@ -54,4 +54,4 @@ A genuine mix of [installation](/gutter-installation/), [repair](/gutter-repair/
 
 Round Lake Estates and the neighboring Red Rock Lake subdivisions represent the established, inner-city lake-lot character of this part of Eden Prairie, distinct from both the oldest north-side housing and the newest southwestern bluff construction.
 
-[Request a free estimate](/estimate/) and we'll assess your specific setup, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll assess your specific setup, or see our full [gutter services](/) for Eden Prairie.

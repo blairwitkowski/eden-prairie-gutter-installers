@@ -54,4 +54,4 @@ This is one of those problems that does not look urgent until the one storm that
 
 Settlers Ridge homes alone run into the $1.4M to $1.5M range, and the broader corridor follows a similar scale, custom builds with the kind of architectural detail that photographs well and drains in a way that needs real planning.
 
-[Request a free estimate](/estimate/) and we'll walk your roofline before recommending a system, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll walk your roofline before recommending a system, or see our full [gutter services](/) for Eden Prairie.

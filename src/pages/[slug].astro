@@ -8,7 +8,6 @@ import ServiceCards from '../components/ServiceCards.astro'; import Areas from '
 import Receipts from '../components/Receipts.astro';
 import Photo from '../components/Photo.astro';
 import GhlFormEmbed from '../components/GhlFormEmbed.astro';
-import EstimatePageContent from '../components/EstimatePageContent.astro';
 
 export function getStaticPaths() {
   return pages.filter((p) => p.slug).map((p) => ({ params: { slug: p.slug }, props: { page: p } }));
@@ -30,7 +29,7 @@ const ext = site.externalLinks || {};
   {slug === 'service-areas' && <Areas head={{ title: page.areasTitle || 'Where we work' }} />}
   {slug === 'reviews' && <Reviews head={{ title: page.reviewsTitle || 'Reviews' }} limit={50} tint={false} />}
 
-  {slug !== 'estimate' && <section><div class:list={['wrap article', { single: !money && !hasForm, 'contact-article': slug === 'contact' }]}>
+  <section><div class:list={['wrap article', { single: !money && !hasForm, 'contact-article': slug === 'contact' }]}>
     <div class="prose">
       <Content />
       {slug === 'about' && ext.mainSite?.url && ext.mainSite.placements?.includes('about') && <p><a href={ext.mainSite.url}>{ext.mainSite.anchor}</a></p>}
@@ -38,8 +37,7 @@ const ext = site.externalLinks || {};
     </div>
     {money && <Side page={page} />}
     {slug === 'contact' && <GhlFormEmbed />}
-  </div></section>}
-  {slug === 'estimate' && <EstimatePageContent />}
+  </div></section>
 
   {page.gallery?.length > 0 && <section style="padding-top:0"><div class="wrap strip">{page.gallery.slice(0, 3).map((g) => (
     <figure><div class="pic"><Photo file={g.image} alt={g.alt} sizes="(max-width:760px) 100vw, 33vw" /></div>{g.caption && <figcaption>{g.caption}</figcaption>}</figure>

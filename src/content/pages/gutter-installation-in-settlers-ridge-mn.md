@@ -54,4 +54,4 @@ A single overflow event is easy to dismiss as an unusually hard storm. Around he
 
 Settlers Ridge homes run roughly $1.4M to $1.5M and up, reflecting the scale of roofline this corridor typically carries. This is one of those neighborhoods where the same design choices that make a home look impressive from the street are exactly what makes the gutter sizing so important to get right the first time.
 
-[Request a free estimate](/estimate/) and we'll walk your specific roofline before recommending a system, or see our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll walk your specific roofline before recommending a system, or see our full [gutter services](/) for Eden Prairie.

@@ -70,4 +70,4 @@ Number of rain chain locations, chain material and style, whether a new outlet a
 
 We already do this work as part of our regular downspout installs, so a rain chain or barrel gets sized for the roof section actually feeding it, not hung on whatever downspout happened to be closest.
 
-[Request a free estimate](/estimate/) and we'll figure out which locations on your home actually make sense for a chain or a barrel.
+[Request a free estimate](/contact/) and we'll figure out which locations on your home actually make sense for a chain or a barrel.

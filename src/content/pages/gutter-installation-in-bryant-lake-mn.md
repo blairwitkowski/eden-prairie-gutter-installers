@@ -57,4 +57,4 @@ A gutter that overflows once during a heavy fall storm is easy to write off. Aro
 
 Housing here mixes lakefront properties with hilly residential lots further from the water, and a fair amount of it borders the older 1960s to 70s housing stock found toward Northeast Eden Prairie. That means original gutter systems on some of these homes have been through several decades of debris load, which adds up differently than it does on a newer roof.
 
-[Request a free estimate](/estimate/) and we'll take a look at what your specific tree cover is doing to your system, or check our full [gutter services](/) for Eden Prairie.
+[Request a free estimate](/contact/) and we'll take a look at what your specific tree cover is doing to your system, or check our full [gutter services](/) for Eden Prairie.

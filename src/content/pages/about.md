@@ -27,4 +27,4 @@ We fabricate and install one-piece, custom-formed gutters on site rather than jo
 
 ## Free, No-Pressure Estimates
 
-We'll come look at your roof, explain what we'd do and why, and give you a straight estimate. There's no script pushing you to sign that day. [Request a free estimate](/estimate/) or [get in touch](/contact/) with questions first.
+We'll come look at your roof, explain what we'd do and why, and give you a straight estimate. There's no script pushing you to sign that day. [Request a free estimate](/contact/) or [get in touch](/contact/) with questions first.
