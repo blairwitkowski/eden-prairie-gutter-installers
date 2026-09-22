@@ -5,6 +5,8 @@
   "brandAccent": "#FFAD05",
   "brandAccentOnDark": "#FCFF4B",
   "businessName": "Eden Prairie Gutter Installers",
+  "phoneDisplay": "(763) 317-3366",
+  "phoneE164": "+17633173366",
   "logo": "logo.png",
   "address": { "street": "8929 Aztec Drive", "city": "Eden Prairie", "state": "MN", "zip": "55347" },
   "schemaType": "HomeAndConstructionBusiness",
