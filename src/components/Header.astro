@@ -29,8 +29,8 @@ const nav = [
       <div class="has-sub">
         <a href={hasPage('services') ? '/services/' : href(serviceMenu[0].page.slug)}>Services</a>
         <div class="sub">
+           {hasPage('services') && <a href="/services/">All Services</a>}
           {serviceMenu.map(({ page, name }) => <a href={href(page.slug)}>{name}</a>)}
-          {hasPage('services') && <a href="/services/">All Services</a>}
         </div>
       </div>
     ) : hasPage('services') && <a href="/services/">Services</a>}
@@ -43,8 +43,8 @@ const nav = [
 </div>
 <div class="mobile-nav" id="mobile-nav"><div class="wrap">
   {serviceMenu.length > 0 && <div class="group">Services</div>}
-  {serviceMenu.map(({ page, name }) => <a href={href(page.slug)}>{name}</a>)}
   {serviceMenu.length > 0 && hasPage('services') && <a href="/services/">All Services</a>}
+  {serviceMenu.map(({ page, name }) => <a href={href(page.slug)}>{name}</a>)}
   {serviceMenu.length === 0 && hasPage('services') && <a href="/services/">Services</a>}
   <div class="group">Company</div>
   {nav.map((n) => <a href={n.to}>{n.name}</a>)}
