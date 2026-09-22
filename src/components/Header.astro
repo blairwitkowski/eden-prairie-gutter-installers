@@ -2,6 +2,14 @@
 import { site, byType, hasPage, href, estimateHref } from '../lib/site.js';
 import Photo from './Photo.astro';
 const services = byType('service');
+const serviceMenu = [
+  ['gutter-installation', 'Gutter Installation'],
+  ['gutter-cleaning', 'Gutter Cleaning'],
+  ['gutter-repair', 'Gutter Repairs'],
+  ['gutter-downspouts', 'Gutter Downspouts'],
+  ['copper-gutters', 'Copper Gutters'],
+  ['commercial-gutters', 'Commercial Gutters'],
+].map(([slug, name]) => ({ page: services.find((service) => service.slug === slug), name })).filter((item) => item.page);
 const nav = [
   hasPage('service-areas') && { name: 'Service Area', to: '/service-areas/' },
   hasPage('about') && { name: 'About', to: '/about/' },
@@ -15,10 +23,10 @@ const nav = [
     {site.logo ? <Photo file={site.logo} alt={site.businessName} eager widths={[320]} sizes="220px" /> : <>{site.businessName}{site.tagline && <span>{site.tagline}</span>}</>}
   </a>
   <nav class="main" aria-label="Main">
-    {services.length > 0 ? (
+    {serviceMenu.length > 0 ? (
       <div class="has-sub">
-        <a href={hasPage('services') ? '/services/' : href(services[0].slug)}>Services</a>
-        <div class="sub">{services.map((s) => <a href={href(s.slug)}>{s.navLabel || s.breadcrumbLabel || s.h1}</a>)}</div>
+        <a href={hasPage('services') ? '/services/' : href(serviceMenu[0].page.slug)}>Services</a>
+        <div class="sub">{serviceMenu.map(({ page, name }) => <a href={href(page.slug)}>{name}</a>)}</div>
       </div>
     ) : hasPage('services') && <a href="/services/">Services</a>}
     {nav.map((n) => <a href={n.to}>{n.name}</a>)}
@@ -29,9 +37,9 @@ const nav = [
   </div>
 </div>
 <div class="mobile-nav" id="mobile-nav"><div class="wrap">
-  {services.length > 0 && <div class="group">Services</div>}
-  {services.map((s) => <a href={href(s.slug)}>{s.navLabel || s.breadcrumbLabel || s.h1}</a>)}
-  {services.length === 0 && hasPage('services') && <a href="/services/">Services</a>}
+  {serviceMenu.length > 0 && <div class="group">Services</div>}
+  {serviceMenu.map(({ page, name }) => <a href={href(page.slug)}>{name}</a>)}
+  {serviceMenu.length === 0 && hasPage('services') && <a href="/services/">Services</a>}
   <div class="group">Company</div>
   {nav.map((n) => <a href={n.to}>{n.name}</a>)}
 </div></div>
