@@ -7,7 +7,7 @@ h1: "Terms & Conditions"
 breadcrumbLabel: "Terms & Conditions"
 index: false
 ---
-## Terms & Conditions
+## Copyright
 
 By using this website, you agree to use it only for lawful purposes. The content on this site, including text and images, belongs to Eden Prairie Gutter Installers and Big Mike's Gutters and may not be copied or reused without permission.
 

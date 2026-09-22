@@ -4,6 +4,9 @@ import Photo from './Photo.astro';
 const services = byType('service');
 const company = ['about','reviews','service-areas','faq','contact','careers','meet-the-team'].filter(hasPage);
 const legal = byType('legal');
+const terms = legal.find((page) => page.slug === 'terms-conditions');
+const privacy = legal.find((page) => page.slug === 'privacy-policy');
+const otherPolicies = legal.filter((page) => !['terms-conditions', 'privacy-policy'].includes(page.slug));
 const label = (s) => s.split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ').replace('Faq','FAQ');
 const ext = site.externalLinks || {};
 ---
@@ -32,7 +35,15 @@ const ext = site.externalLinks || {};
     </div>
   </div>
   <div class="bar">
-    <div>© {site.businessName} {legal.map((l) => <>&nbsp; <a href={href(l.slug)}>{l.breadcrumbLabel || l.h1}</a></>)}</div>
+    <div class="copyright">© {site.businessName}</div>
+    {terms && <nav class="legal-nav" aria-label="Policies">
+      <a class="legal-parent" href={href(terms.slug)}>{terms.breadcrumbLabel || terms.h1}</a>
+      <ul>
+        {privacy && <li><a href={href(privacy.slug)}>{privacy.breadcrumbLabel || privacy.h1}</a></li>}
+        <li><a href={`${href(terms.slug)}#copyright`}>Copyright</a></li>
+        {otherPolicies.map((page) => <li><a href={href(page.slug)}>{page.breadcrumbLabel || page.h1}</a></li>)}
+      </ul>
+    </nav>}
     <div>Site Built by BW</div>
   </div>
 </div></footer>
