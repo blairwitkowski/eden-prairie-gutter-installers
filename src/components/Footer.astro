@@ -2,6 +2,13 @@
 import { site, byType, hasPage, href, telHref, telClass, estimateHref, estimateLabel, estimateShort } from '../lib/site.js';
 import Photo from './Photo.astro';
 const services = byType('service');
+const footerServices = [
+  ['gutter-installation', 'Gutter Installation'],
+  ['gutter-cleaning', 'Gutter Cleaning'],
+  ['gutter-repair', 'Gutter Repairs'],
+  ['gutter-guards', 'Gutter Guards'],
+  ['commercial-gutters', 'Commercial Gutters'],
+].map(([slug, name]) => ({ page: services.find((service) => service.slug === slug), name })).filter((item) => item.page);
 const company = ['about','reviews','service-areas','faq','contact','careers','meet-the-team'].filter(hasPage);
 const legal = byType('legal');
 const terms = legal.find((page) => page.slug === 'terms-conditions');
@@ -14,7 +21,7 @@ const { hideEstimate = false } = Astro.props;
 <footer id="footer"><div class="wrap">
   <div class="cols">
     <div><h4>About {site.businessName}</h4><p>{site.footerAbout}</p></div>
-    {services.length > 0 && <div><h4>Services</h4><ul>{services.map((s) => <li><a href={href(s.slug)}>{s.navLabel || s.breadcrumbLabel || s.h1}</a></li>)}</ul></div>}
+    {footerServices.length > 0 && <div><h4>Services</h4><ul>{footerServices.map(({ page, name }) => <li><a href={href(page.slug)}>{name}</a></li>)}</ul></div>}
     <div><h4>Company</h4><ul>
       {company.map((s) => <li><a href={href(s)}>{label(s)}</a></li>)}
       {hasPage('services') && <li><a href="/services/">Gutter Services</a></li>}
