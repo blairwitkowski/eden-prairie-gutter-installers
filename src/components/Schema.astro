@@ -17,8 +17,8 @@ const business = {
   ...(site.owner?.name && { founder: { '@type': 'Person', name: site.owner.name, ...(site.owner.title && { jobTitle: site.owner.title }) } }),
 };
 const graph = [business];
-if (page.pageType === 'home') graph.push({ '@type': 'WebSite', '@id': `${base}/#website`, url: base + '/', name: site.businessName, publisher: { '@id': bizId } });
-else {
+const isHome = page.pageType === 'home';
+if (!isHome) {
   const trail = crumbsFor(page);
   graph.push({ '@type': 'BreadcrumbList', itemListElement: trail.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, item: abs(t.to) })) });
 }
@@ -28,5 +28,66 @@ if (page.pageType === 'service' || page.pageType === 'location') {
 }
 if (page.faqs?.length) graph.push({ '@type': 'FAQPage', mainEntity: page.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
 const json = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+const homeBusinessJson = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'HomeAndConstructionBusiness',
+  '@id': 'https://edenprairiegutterinstallers.com/#business',
+  name: 'Eden Prairie Gutter Installers',
+  url: 'https://edenprairiegutterinstallers.com/',
+  telephone: '+17633173366',
+  image: 'https://edenprairiegutterinstallers.com/logo.svg',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '8929 Aztec Dr',
+    addressLocality: 'Eden Prairie',
+    addressRegion: 'MN',
+    postalCode: '55347',
+    addressCountry: 'US',
+  },
+  areaServed: {
+    '@type': 'City',
+    name: 'Eden Prairie',
+    containedInPlace: {
+      '@type': 'State',
+      name: 'Minnesota',
+    },
+  },
+  additionalType: 'https://en.wikipedia.org/wiki/Rain_gutter',
+  parentOrganization: {
+    '@type': 'HomeAndConstructionBusiness',
+    name: 'Big Mikes Gutters',
+    url: 'https://bigmikesgutters.net/',
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      opens: '07:00',
+      closes: '20:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: 'Sunday',
+      opens: '09:00',
+      closes: '13:00',
+    },
+  ],
+});
+const homeFaqJson = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: (page.faqs || []).map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+});
 ---
-<script type="application/ld+json" set:html={json} />
+{isHome ? (
+  <>
+    <script type="application/ld+json" set:html={homeBusinessJson} />
+    <script type="application/ld+json" set:html={homeFaqJson} />
+  </>
+) : (
+  <script type="application/ld+json" set:html={json} />
+)}
