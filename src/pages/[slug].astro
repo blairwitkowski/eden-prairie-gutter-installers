@@ -7,6 +7,7 @@ import Reviews from '../components/Reviews.astro'; import CtaBand from '../compo
 import ServiceCards from '../components/ServiceCards.astro'; import Areas from '../components/Areas.astro';
 import EstimateForm from '../components/EstimateForm.astro'; import Receipts from '../components/Receipts.astro';
 import Photo from '../components/Photo.astro';
+import GhlFormEmbed from '../components/GhlFormEmbed.astro';
 
 export function getStaticPaths() {
   return pages.filter((p) => p.slug).map((p) => ({ params: { slug: p.slug }, props: { page: p } }));
@@ -28,14 +29,15 @@ const ext = site.externalLinks || {};
   {slug === 'service-areas' && <Areas head={{ title: page.areasTitle || 'Where we work' }} />}
   {slug === 'reviews' && <Reviews head={{ title: page.reviewsTitle || 'Reviews' }} limit={50} tint={false} />}
 
-  <section><div class:list={['wrap article', { single: !money && !hasForm }]}>
+  <section><div class:list={['wrap article', { single: !money && !hasForm, 'contact-article': slug === 'contact' }]}>
     <div class="prose">
       <Content />
       {slug === 'about' && ext.mainSite?.url && ext.mainSite.placements?.includes('about') && <p><a href={ext.mainSite.url}>{ext.mainSite.anchor}</a></p>}
       {slug === 'contact' && ext.gbp?.url && ext.gbp.placements?.includes('contact') && <p><a href={ext.gbp.url} rel="noopener">{ext.gbp.anchor}</a></p>}
     </div>
     {money && <Side page={page} />}
-    {hasForm && <EstimateForm title={slug === 'contact' ? 'Send us a message' : undefined} />}
+    {slug === 'contact' && <GhlFormEmbed />}
+    {slug === 'estimate' && <EstimateForm />}
   </div></section>
 
   {page.gallery?.length > 0 && <section style="padding-top:0"><div class="wrap strip">{page.gallery.slice(0, 3).map((g) => (
