@@ -34,7 +34,7 @@ faqs:
 
 A rain chain replaces a section of closed downspout with a hanging chain of linked cups or rings. Water follows the chain down by surface tension instead of running through an enclosed pipe, which is why homeowners choose them for a covered porch or entry where the chain is visible and part of the look of the house, rather than on every downspout.
 
-A rain barrel does the opposite job. It attaches at the base of a downspout through a diverter, catching roof runoff for reuse, watering beds, rinsing tools, that kind of thing, while still allowing overflow to continue down the original path once the barrel is full.
+A rain barrel does the opposite job. It attaches at the base of a downspout through a diverter, catching roof runoff for reuse, watering beds, rinsing tools, that kind of thing, while still allowing overflow to continue down the original path once the barrel is full. Rain chains in particular are a common request on the front porches common to the older rambler homes around [Northeast Eden Prairie](/gutter-installation-in-northeast-eden-prairie-mn/) and the townhome entries around [Central Eden Prairie](/gutter-installation-in-central-eden-prairie-mn/), where a covered entry makes a good accent spot.
 
 - Rain chain installation at porch, entry, or accent downspout locations, sized for the roof section actually feeding it
 - Outlet adapter and basin sized so the chain doesn't clog at the small opening where it meets the gutter
@@ -44,7 +44,7 @@ A rain barrel does the opposite job. It attaches at the base of a downspout thro
 
 ## What usually goes wrong
 
-Most rain chain problems come down to volume. A chain hung off a small roof plane usually works fine, but connect one to a valley section that funnels water from two or three roof planes, and it's carrying more than the chain and its outlet adapter were sized for. Water jumps off the links instead of clinging to them, and you get exactly what people describe as the chain "spraying" or "making a mess" against the siding. The fix is matching the chain to the section it's actually draining, not the section someone wished it could handle.
+Most rain chain problems come down to volume. A chain hung off a small roof plane usually works fine, but connect one to a valley section that funnels water from two or three roof planes, the same valley-heavy rooflines we see throughout [Bearpath](/gutter-installation-in-bearpath-mn/) and [Settlers Ridge](/gutter-installation-in-settlers-ridge-mn/), and it's carrying more than the chain and its outlet adapter were sized for. Water jumps off the links instead of clinging to them, and you get exactly what people describe as the chain "spraying" or "making a mess" against the siding. The fix is matching the chain to the section it's actually draining, not the section someone wished it could handle.
 
 The outlet adapter itself is also a common clog point. It's a much smaller opening than a standard downspout, so leaves and debris that would pass through a normal 3-inch downspout without issue can dam it up fast, backing water over the gutter edge.
 
