@@ -89,6 +89,6 @@
     "mainSite": { "url": "https://bigmikesgutters.net/", "anchor": "Big Mike's Gutters", "placements": ["about"] },
     "gbp": { "url": "https://share.google/KOBNd3OKm882RWpbh", "anchor": "Big Mike's Gutters on Google", "placements": ["contact"] }
   },
-  "allowedExternalDomains": ["bigmikesgutters.net", "share.google"],
+  "allowedExternalDomains": ["bigmikesgutters.net", "share.google", "maps.google.com"],
   "formConsent": "By sending this form you agree to be contacted about your request."
 }
