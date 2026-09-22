@@ -4,6 +4,7 @@ import Heading from './Heading.astro'; import Photo from './Photo.astro';
 const { head = {}, tint = true, button = true } = Astro.props;
 const pagesBySlug = Object.fromEntries(byType('service').map((p) => [p.slug, p]));
 const items = (site.services || []).filter((s) => s.slug && pagesBySlug[s.slug]);
+const cardSizes = (index) => `(max-width:900px) calc(100vw - 2rem), ${index % 4 === 0 || index % 4 === 3 ? '56vw' : '28vw'}`;
 ---
 {items.length > 0 && (
 <section id="services" class:list={[{ tint }]}><div class="wrap">
@@ -12,8 +13,8 @@ const items = (site.services || []).filter((s) => s.slug && pagesBySlug[s.slug])
     {button && hasPage('services') && <a class="btn btn-line" href="/services/">All services</a>}
   </div>
   <div class="svc">
-    {items.map((s) => (
-      <a href={href(s.slug)}><Photo file={s.image} alt={s.alt} sizes="(max-width:900px) 100vw, 50vw" />
+    {items.map((s, index) => (
+      <a href={href(s.slug)}><Photo file={s.image} alt={s.alt} widths={[320, 480, 640, 800, 1024, 1200]} sizes={cardSizes(index)} quality={60} />
         <div class="t"><h3>{s.name}</h3><span class="more">{s.linkLabel || 'See how it works'}</span></div></a>
     ))}
   </div>

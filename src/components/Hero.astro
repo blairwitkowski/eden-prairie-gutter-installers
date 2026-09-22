@@ -5,7 +5,7 @@ const { page } = Astro.props; const h = page.hero || {};
 const facts = site.facts || [];
 ---
 <section class="hero on-dark">
-  <div class="photo"><Photo file={h.image} alt={h.alt} eager sizes="(max-width:760px) 100vw, 62vw" /></div>
+  <div class="photo"><Photo file={h.image} alt={h.alt} eager widths={[480, 640, 800, 1024, 1200, 1536]} sizes="(max-width:760px) 100vw, 62vw" quality={62} /></div>
   <div class="wrap">
     <div class="copy">
       {page.eyebrow && <div class="kicker">{page.eyebrow}</div>}
