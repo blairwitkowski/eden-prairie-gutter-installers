@@ -7,6 +7,7 @@ import Receipts from '../components/Receipts.astro'; import Reasons from '../com
 import Reviews from '../components/Reviews.astro'; import Areas from '../components/Areas.astro';
 import Faq from '../components/Faq.astro'; import CtaBand from '../components/CtaBand.astro';
 import Brands from '../components/Brands.astro'; import EstimateForm from '../components/EstimateForm.astro';
+import Photo from '../components/Photo.astro';
 const page = findPage('');
 const s = page.sections || {};
 const { Content } = page;
@@ -21,7 +22,10 @@ const { Content } = page;
   <Reasons data={s.reasons} />
   <Reviews head={s.reviews} />
   <Areas head={s.areas} />
-  <section class="home-body"><div class="wrap article single"><div class="prose"><Content /></div></div></section>
+  <section class="home-body" id="roof-water"><div class="wrap home-story">
+    <div class="prose"><Content /></div>
+    {page.bodyImage && <figure class="home-story-photo"><Photo file={page.bodyImage} alt={page.bodyImageAlt} sizes="(max-width:980px) 100vw, 42vw" /></figure>}
+  </div></section>
   <Faq faqs={page.faqs} head={s.faq || { title: 'Common questions' }} />
   {site.siteMode === 'lean' && <section><div class="wrap" style="max-width:860px"><EstimateForm /></div></section>}
   {site.mapEmbed && <div class="map" set:html={site.mapEmbed} />}

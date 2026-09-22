@@ -6,6 +6,8 @@ metaDescription: "Gutter installation, repair, cleaning, and commercial drainage
 h1: "Gutter Installer Eden Prairie, MN"
 eyebrow: "Local Eden Prairie Gutter Experts"
 hero: { hl: "Eden Prairie, MN", sub: "We size, fabricate, and install gutter systems built for the steep rooflines, valley runoff, and freeze-thaw winters that come with living here.", image: "real-traditional-home.jpg", alt: "Gutter installation in Eden Prairie, MN" }
+bodyImage: "home-water-movement.jpg"
+bodyImageAlt: "Traditional Eden Prairie home with a steep, multi-level roofline"
 sections:
   services: { kicker: "What we do", title: "Gutter Services Built For Eden Prairie Roofs", hl: "Eden Prairie roofs", lede: "Every job is measured in person and sized for the roof in front of us, not a generic template." }
   about: { kicker: "Who you're hiring", title: "Your Local Eden Prairie Gutter Installation Team", hl: "Eden Prairie Gutter", paragraphs: ["Eden Prairie Gutter Installers is part of the Big Mike Gutters family of companies, providing custom measurement, fabrication, and installation for homes and businesses across the area.", "We run our own crew on every job. No subcontractors get handed your project and no one shows up who wasn't trained on our standards."], checks: ["Custom fabrication and installation", "Our own crew, no subcontractors"], image: "about-clients.jpg", alt: "Finished gutter installation project", chipValue: "10+", chipCaption: "Years in the gutter business", buttonLabel: "More about us", buttonTo: "/about/" }
