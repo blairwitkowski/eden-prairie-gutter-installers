@@ -261,11 +261,12 @@ nav.main .sub a{display:block;padding:.6rem 1.5rem;font-weight:700;font-size:.9r
 @media(max-width:980px){.home-story{grid-template-columns:1fr}.home-story-photo{min-height:0;aspect-ratio:4/3;margin:1rem 0 0 1rem}.home-story-photo::before{inset:1rem 0 0 -1rem}}
 /* link lists */
 .linklists{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,4vw,4rem)}
-.linklist h2{font-size:1.5rem;padding-bottom:.8rem;border-bottom:2px solid var(--accent);margin-bottom:.6rem}
+.linklist{background:var(--tint);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:var(--radius);padding:clamp(1.4rem,3vw,2rem);box-shadow:0 14px 36px rgba(24,35,43,.08)}
+.linklist h2{font-size:1.5rem;padding-bottom:.8rem;border-bottom:1px solid var(--line);margin-bottom:.6rem}
 .linklist ul{list-style:none;padding:0;columns:2;column-gap:2rem}
 .linklist li{break-inside:avoid}
-.linklist a{display:block;padding:.45rem 0;text-decoration:none;font-weight:600;border-bottom:1px solid var(--line)}
-.linklist a:hover{color:var(--accent)}
+.linklist a{display:block;padding:.55rem 0;text-decoration:none;font-weight:700;border-bottom:1px solid var(--line);transition:color .2s,transform .2s}
+.linklist a:hover{color:var(--accent);transform:translateX(3px)}
 .linklist .all{display:inline-block;margin-top:1rem;font-weight:700;color:var(--accent)}
 @media(max-width:760px){.linklists{grid-template-columns:1fr}.linklist ul{columns:1}}
 /* service rows (lean mode services page) */

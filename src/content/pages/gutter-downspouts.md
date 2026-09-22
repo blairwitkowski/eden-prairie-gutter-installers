@@ -11,16 +11,16 @@ intro: "A downspout in the wrong spot just moves your overflow problem three fee
 heroImage: "real-downspout-closeup.webp"
 heroAlt: "Downspout directing water away from a foundation"
 relatedServices:
-  - { to: "/gutter-installation/", anchor: "gutter installation" }
-  - { to: "/gutter-repair/", anchor: "gutter repair" }
-  - { to: "/gutter-cleaning/", anchor: "gutter cleaning" }
-  - { to: "/commercial-gutters/", anchor: "commercial gutters" }
-  - { to: "/copper-gutters/", anchor: "copper gutters" }
-  - { to: "/gutter-guards/", anchor: "gutter guards" }
+  - { to: "/gutter-installation/", anchor: "Gutter Installation" }
+  - { to: "/gutter-repair/", anchor: "Gutter Repair" }
+  - { to: "/gutter-cleaning/", anchor: "Gutter Cleaning" }
+  - { to: "/commercial-gutters/", anchor: "Commercial Gutters" }
+  - { to: "/copper-gutters/", anchor: "Copper Gutters" }
+  - { to: "/gutter-guards/", anchor: "Gutter Guards" }
 nearbyLocations:
-  - { to: "/gutter-installation-in-riley-lake-mn/", anchor: "downspout placement in the Riley Lake area" }
-  - { to: "/gutter-installation-in-west-eden-prairie-mn/", anchor: "downspout placement in West Eden Prairie" }
-  - { to: "/gutter-installation-in-pioneer-park-mn/", anchor: "downspout placement in the Pioneer Park area" }
+  - { to: "/gutter-installation-in-riley-lake-mn/", anchor: "Downspout Placement In The Riley Lake Area" }
+  - { to: "/gutter-installation-in-west-eden-prairie-mn/", anchor: "Downspout Placement In West Eden Prairie" }
+  - { to: "/gutter-installation-in-pioneer-park-mn/", anchor: "Downspout Placement In The Pioneer Park Area" }
 faqs:
   - { q: "How many downspouts does a typical house need?", a: "It depends on roofline length and how many valleys concentrate water into one section. We calculate it per house, not by a fixed rule of thumb." }
   - { q: "Do I need downspout extensions?", a: "If your lot slopes toward the house or you have a walkout basement, yes, an extension carries water further before it discharges." }
