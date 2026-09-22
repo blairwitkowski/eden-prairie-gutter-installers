@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/gutter-cleaning/", anchor: "gutter cleaning" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-pioneer-park-mn/", anchor: "the Pioneer Park area" }
   - { to: "/commercial-gutters-in-city-west-parkway-mn/", anchor: "City West Parkway" }

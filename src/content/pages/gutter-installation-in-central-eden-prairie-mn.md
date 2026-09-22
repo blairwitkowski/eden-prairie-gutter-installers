@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-round-lake-park-mn/", anchor: "the Round Lake Park area" }
   - { to: "/gutter-installation-in-pioneer-park-mn/", anchor: "the Pioneer Park area" }

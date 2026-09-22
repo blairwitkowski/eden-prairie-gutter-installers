@@ -18,6 +18,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-bearpath-mn/", anchor: "gutter installation in Bearpath" }
   - { to: "/gutter-installation-in-settlers-ridge-mn/", anchor: "gutter installation in Settlers Ridge" }
@@ -41,7 +42,7 @@ That distinction matters more here than in a lot of places. Fewer seams means fe
 - On-site fabrication in 5" or 6" profiles, aluminum, galvalume, or copper
 - Hangers spaced and sized for your roof's snow load, not a generic spacing chart
 - Downspout count and placement based on where water actually needs to go
-- Gutter guard installation if you want it, from [Leaf Sentry, Bulldog, Leaf Blaster, or XTREME](/about/) systems
+- Gutter guard installation if you want it, from [Leaf Sentry, Bulldog, Leaf Blaster, or XTREME](/gutter-guards/) systems
 
 ## How The Job Goes
 

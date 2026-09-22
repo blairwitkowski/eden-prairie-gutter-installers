@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/gutter-cleaning/", anchor: "gutter cleaning" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/commercial-gutters-in-golden-triangle-mn/", anchor: "the Golden Triangle" }
   - { to: "/gutter-installation-in-southeast-eden-prairie-mn/", anchor: "Southeast Eden Prairie" }

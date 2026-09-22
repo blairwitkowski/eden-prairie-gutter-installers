@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-cleaning/", anchor: "gutter cleaning" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-bearpath-mn/", anchor: "rain chains and rain barrels in Bearpath" }
   - { to: "/gutter-installation-in-olympic-hills-mn/", anchor: "rain chains and rain barrels in Olympic Hills" }

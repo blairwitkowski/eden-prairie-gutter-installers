@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-cleaning/", anchor: "gutter cleaning" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-bearpath-mn/", anchor: "Bearpath" }
   - { to: "/gutter-installation-in-southwest-eden-prairie-mn/", anchor: "Southwest Eden Prairie" }

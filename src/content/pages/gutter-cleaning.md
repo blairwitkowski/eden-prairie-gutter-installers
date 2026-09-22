@@ -16,6 +16,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-bryant-lake-mn/", anchor: "gutter cleaning in the Bryant Lake area" }
   - { to: "/gutter-installation-in-bearpath-mn/", anchor: "gutter cleaning in Bearpath" }

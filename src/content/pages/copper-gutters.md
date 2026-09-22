@@ -16,6 +16,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/gutter-cleaning/", anchor: "gutter cleaning" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-bearpath-mn/", anchor: "copper gutters in Bearpath" }
   - { to: "/gutter-installation-in-settlers-ridge-mn/", anchor: "copper gutters in Settlers Ridge" }

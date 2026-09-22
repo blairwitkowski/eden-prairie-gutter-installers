@@ -18,6 +18,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-southwest-eden-prairie-mn/", anchor: "gutter repair in Southwest Eden Prairie" }
   - { to: "/gutter-installation-in-riley-lake-mn/", anchor: "gutter repair in the Riley Lake area" }

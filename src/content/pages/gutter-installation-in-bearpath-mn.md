@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-settlers-ridge-mn/", anchor: "Settlers Ridge" }
   - { to: "/gutter-installation-in-riley-lake-mn/", anchor: "the Riley Lake area" }

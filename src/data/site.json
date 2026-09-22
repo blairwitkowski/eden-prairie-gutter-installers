@@ -27,7 +27,9 @@
     { "name": "Commercial Gutters", "slug": "commercial-gutters", "image": "real-harbor-gray-garage.jpeg", "alt": "Commercial low-slope roof drainage system", "linkLabel": "Commercial options" },
     { "name": "Gutter Repair", "slug": "gutter-repair", "image": "real-porch-downspout.jpeg", "alt": "Sagging gutter section being resecured", "linkLabel": "Common repairs" },
     { "name": "Gutter Downspouts", "slug": "gutter-downspouts", "image": "real-downspout-closeup.webp", "alt": "Downspout directing water away from a foundation", "linkLabel": "Downspout placement" },
-    { "name": "Copper Gutters", "slug": "copper-gutters", "image": "real-classic-home.jpg", "alt": "Copper gutter with natural weathered patina", "linkLabel": "Copper options" }
+    { "name": "Copper Gutters", "slug": "copper-gutters", "image": "real-classic-home.jpg", "alt": "Copper gutter with natural weathered patina", "linkLabel": "Copper options" },
+    { "name": "Rain Chains & Rain Barrels", "slug": "rain-chains-and-rain-barrels", "image": "svc-rain-chain.jpg", "alt": "Rain chain installed at a porch downspout location", "linkLabel": "Rain chain & barrel options" },
+    { "name": "Gutter Guards", "slug": "gutter-guards", "image": "svc-gutter-guards.jpg", "alt": "Gutter guard installed along a roofline", "linkLabel": "Guard options" }
   ],
   "receipts": [
     { "key": "Local Gutter Experts", "value": "We provide custom measurement, fabrication, and installation for Eden Prairie homes.", "linkLabel": "See our services", "linkTo": "/services/" },

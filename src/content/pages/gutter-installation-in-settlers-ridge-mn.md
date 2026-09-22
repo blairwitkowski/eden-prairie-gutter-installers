@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/gutter-cleaning/", anchor: "gutter cleaning" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-bearpath-mn/", anchor: "Bearpath" }
   - { to: "/gutter-installation-in-boulder-pointe-mn/", anchor: "Boulder Pointe" }

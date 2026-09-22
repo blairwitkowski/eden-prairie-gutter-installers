@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-olympic-hills-mn/", anchor: "Olympic Hills" }
   - { to: "/gutter-installation-in-northeast-eden-prairie-mn/", anchor: "Northeast Eden Prairie" }

@@ -17,6 +17,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
   - { to: "/commercial-gutters/", anchor: "commercial gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/gutter-installation-in-bryant-lake-mn/", anchor: "the Bryant Lake area" }
   - { to: "/gutter-installation-in-central-eden-prairie-mn/", anchor: "Central Eden Prairie" }

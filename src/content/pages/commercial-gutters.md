@@ -16,6 +16,7 @@ relatedServices:
   - { to: "/gutter-downspouts/", anchor: "gutter downspouts" }
   - { to: "/gutter-cleaning/", anchor: "gutter cleaning" }
   - { to: "/copper-gutters/", anchor: "copper gutters" }
+  - { to: "/gutter-guards/", anchor: "gutter guards" }
 nearbyLocations:
   - { to: "/commercial-gutters-in-golden-triangle-mn/", anchor: "commercial gutters in the Golden Triangle" }
   - { to: "/commercial-gutters-in-city-west-parkway-mn/", anchor: "commercial gutters on City West Parkway" }
