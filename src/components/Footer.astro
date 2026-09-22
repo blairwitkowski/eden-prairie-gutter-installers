@@ -9,6 +9,7 @@ const privacy = legal.find((page) => page.slug === 'privacy-policy');
 const otherPolicies = legal.filter((page) => !['terms-conditions', 'privacy-policy'].includes(page.slug));
 const label = (s) => s.split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ').replace('Faq','FAQ');
 const ext = site.externalLinks || {};
+const { hideEstimate = false } = Astro.props;
 ---
 <footer id="footer"><div class="wrap">
   <div class="cols">
@@ -28,7 +29,7 @@ const ext = site.externalLinks || {};
       <ul>
       {site.phoneDisplay && <li><a class={telClass} href={telHref}>{site.phoneDisplay}</a></li>}
       {site.email && <li><a href={`mailto:${site.email}`}>{site.email}</a></li>}
-      <li><a href={estimateHref}>{estimateLabel}</a></li>
+      {!hideEstimate && <li><a href={estimateHref}>{estimateLabel}</a></li>}
       {ext.mainSite?.url && ext.mainSite.placements?.includes('footer') && <li><a href={ext.mainSite.url}>{ext.mainSite.anchor}</a></li>}
       {ext.gbp?.url && ext.gbp.placements?.includes('footer') && <li><a href={ext.gbp.url} rel="noopener">{ext.gbp.anchor}</a></li>}
       </ul>
@@ -47,4 +48,4 @@ const ext = site.externalLinks || {};
     <div>Site Built by BW</div>
   </div>
 </div></footer>
-<div class="callbar"><a class={telClass} href={telHref}>Call now</a><a href={estimateHref}>{estimateShort}</a></div>
+<div class:list={['callbar', { single: hideEstimate }]}><a class={telClass} href={telHref}>Call now</a>{!hideEstimate && <a href={estimateHref}>{estimateShort}</a>}</div>

@@ -1,7 +1,7 @@
 ---
 import { site, crumbsFor, estimateHref, telHref, telClass, estimateLabel } from '../lib/site.js';
 import Photo from './Photo.astro';
-const { page, actions = true } = Astro.props;
+const { page, actions = true, showEstimate = true } = Astro.props;
 const trail = crumbsFor(page);
 ---
 <section class="pagehead on-dark">
@@ -13,7 +13,7 @@ const trail = crumbsFor(page);
     {page.intro && <p class="sub">{page.intro}</p>}
     {actions && <div class="actions">
       <a class:list={['btn btn-primary', telClass]} href={telHref}>Call {site.phoneDisplay}</a>
-      <a class="btn btn-ghost" href={estimateHref}>{estimateLabel}</a>
+      {showEstimate && <a class="btn btn-ghost" href={estimateHref}>{estimateLabel}</a>}
     </div>}
   </div>
 </section>

@@ -206,6 +206,7 @@ nav.main .sub a{display:block;padding:.6rem 1.5rem;font-weight:700;font-size:.9r
 @media(max-width:1080px){.menu-btn{display:block}.mobile-nav.open{display:block}}
 .callbar{display:none}
 @media(max-width:760px){.callbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:40;box-shadow:0 -6px 20px rgba(0,0,0,.2)}
+  .callbar.single{grid-template-columns:1fr}
   .callbar a{padding:.95rem;text-align:center;font-weight:700;text-decoration:none;color:#fff;background:var(--accent)}
   .callbar a+a{background:var(--ink)} body{padding-bottom:3.4rem}}
 /* page header (inner pages) */

@@ -20,7 +20,7 @@ const leanServices = slug === 'services' && byType('service').length === 0;
 const ext = site.externalLinks || {};
 ---
 <Base page={page}>
-  <PageHead page={page} actions={t !== 'legal' && slug !== 'thank-you'} />
+  <PageHead page={page} actions={t !== 'legal' && slug !== 'thank-you'} showEstimate={slug !== 'contact'} />
 
   {slug === 'services' && !leanServices && <ServiceCards head={{}} tint={false} button={false} />}
   {leanServices && <section><div class="wrap rows">{(site.services || []).map((s) => (

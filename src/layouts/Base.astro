@@ -52,6 +52,6 @@ const ogImageHeight = page.ogImageHeight || 630;
   <ReviewBar />
   <Header />
   <main id="main"><slot /></main>
-  <Footer />
+  <Footer hideEstimate={page.slug === 'contact'} />
 </body>
 </html>
